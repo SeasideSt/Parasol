@@ -3,6 +3,7 @@
 		"initialize" : "KrisGybels 8/26/2014 19:55" },
 	"instance" : {
 		"byteArrayFromBase64String:" : "haerle 8/19/2014 14:54",
+		"ensureSeasideServerRunning" : "JohanBrichau 4/24/2016 11:18",
 		"fileDelete:" : "haerle 8/19/2014 14:54",
 		"fileWrite:contents:" : "haerle 8/19/2014 14:54",
 		"handleRequest:" : "haerle 8/20/2014 09:26",
