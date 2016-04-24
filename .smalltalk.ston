@@ -1,0 +1,10 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'Parasol',
+      #directory : 'repository',
+      #load : [ 'Tests' ],
+      #platforms : [ pharo ]
+    }
+  ]
+}

@@ -16,7 +16,7 @@ baseline: spec
 			
 		spec
 			group: 'default' with: #('Parasol-Core' 'Parasol-Convenience');
-			group: 'dev' with: #('Parasol-Tests' 'default').
+			group: 'tests' with: #('Parasol-Tests' 'default').
 	].
 
 	spec for: #squeak do: [
