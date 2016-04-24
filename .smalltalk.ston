@@ -3,7 +3,7 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'Parasol',
       #directory : 'repository',
-      #load : [ 'Tests' ],
+      #load : [ 'tests' ],
       #platforms : [ #pharo ]
     }
   ]
