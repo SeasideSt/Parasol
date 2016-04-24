@@ -25,20 +25,20 @@ driver quit.
 To try Beach Parasol, you'll need a few things:
 - A Pharo image. We use and test with latest stable Pharo. Or a Squeak image. Tested with 4.4.
 - The Firefox web browser
-- The Selenium standalone server ("selenium-server-standalone-2.52.0.jar" at the time of writing)
+- The [Selenium standalone server](http://docs.seleniumhq.org/download/) ("selenium-server-standalone-2.52.0.jar" at the time of writing)
 - To run the Selenium server, execute the following on the command line:
 `java -jar selenium-server-standalone-2.25.0.jar`
 
 To load the Parasol package into the Pharo image:
 ```
-Gofer new
-    url: 'http://ss3.gemstone.com/ss/Parasol';
-    package: 'ConfigurationOfParasol';
-    load.
-((Smalltalk at: #ConfigurationOfParasol) project version: #development) load: 'dev'.
-WAKomEncoded startOn: 8080.
-Deprecation raiseWarning: false; showWarning: false.
-To load the Beach Parasol package into a Squeak image:
+Metacello new
+    baseline: 'Parasol';
+    repository: 'github://SeasideSt/Parasol/repository';
+    load: 'tests'.
+ZnZincServerAdaptor startOn:8080.
+```
+To load the Parasol package into a Squeak image (from the SS3 repo):
+```
 Installer ss3
     project: 'Parasol';
     install: 'ConfigurationOfParasol'.
