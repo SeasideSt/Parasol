@@ -1,5 +1,9 @@
 language: smalltalk
 sudo: false
+before_script:
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+  - sleep 3 # give xvfb some time to start
 smalltalk:
 #  - Pharo-5.0
   - Pharo-4.0
