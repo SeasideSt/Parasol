@@ -1,0 +1,25 @@
+{
+	"category" : "PreferenceBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mainPanel",
+		"defaultButton",
+		"saveButton",
+		"loadButton",
+		"saveToDiskButton",
+		"loadFromDiskButton",
+		"themeButton",
+		"helpButton",
+		"preferenceList",
+		"lastKeystrokeTime",
+		"lastKeystrokes",
+		"highlightedPreferenceButton" ],
+	"name" : "PreferenceBrowserMorph",
+	"pools" : [
+		 ],
+	"super" : "SystemWindow",
+	"type" : "normal" }

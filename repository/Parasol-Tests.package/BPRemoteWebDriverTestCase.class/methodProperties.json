@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"packageNamesUnderTest" : "KrisGybels 5/22/2012 10:09" },
+	"instance" : {
+		"componentClass" : "KrisGybels 6/29/2012 15:21",
+		"configureTestApp:" : "JohanBrichau 7/4/2014 13:20",
+		"testClose" : "KrisGybels 6/29/2012 15:22",
+		"testExecuteWith" : "KrisGybels 4/13/2012 09:48",
+		"testFindElementByCSSSelector" : "KrisGybels 7/4/2012 10:00",
+		"testFindElementByClassName" : "KrisGybels 6/29/2012 15:20",
+		"testFindElementByID" : "KrisGybels 6/29/2012 15:20",
+		"testFindElementByLinkText" : "KrisGybels 6/29/2012 15:19",
+		"testFindElementByName" : "KrisGybels 6/29/2012 15:19",
+		"testFindElementByPartialLinkText" : "KrisGybels 6/29/2012 15:20",
+		"testFindElementByTagName" : "KrisGybels 6/29/2012 15:19",
+		"testFindElementByXPath" : "KrisGybels 6/29/2012 15:18",
+		"testFindElementsByClassName" : "JohanBrichau 5/18/2012 17:11",
+		"testFindElementsByPartialLinkTest" : "AndyKellens 2/13/2013 16:49",
+		"testFindElementsByXPath" : "KrisGybels 10/2/2012 11:48",
+		"testGetCapabilities" : "KrisGybels 10/9/2015 14:03",
+		"testGetPageSource" : "JohanBrichau 8/16/2013 09:02",
+		"testGetScreenshotAsByteArray" : "KrisGybels 10/9/2015 14:03",
+		"testGetWindowHandle" : "KrisGybels 5/23/2012 19:03",
+		"testGetWindowHandles" : "KrisGybels 5/23/2012 19:04",
+		"testImplicitWait" : "KrisGybels 9/8/2013 20:17",
+		"testSwitchTo" : "KrisGybels 5/23/2012 19:53",
+		"testTakeScreenshot" : "haerle 8/19/2014 14:55",
+		"waitForDriverToFinishClosing" : "KrisGybels 4/10/2012 16:03" } }

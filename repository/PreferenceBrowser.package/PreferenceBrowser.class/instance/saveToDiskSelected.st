@@ -1,0 +1,3 @@
+preferences search
+saveToDiskSelected 
+	preferences storePreferencesToDisk

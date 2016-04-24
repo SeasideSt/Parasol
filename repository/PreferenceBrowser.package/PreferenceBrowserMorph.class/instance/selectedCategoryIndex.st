@@ -1,0 +1,3 @@
+model access
+selectedCategoryIndex
+	^self model selectedCategoryIndex

@@ -1,0 +1,14 @@
+{
+	"category" : "Parasol-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"testComponent" ],
+	"name" : "BPSeasideWebDriverTestCase",
+	"pools" : [
+		 ],
+	"super" : "BPWebDriverTestCase",
+	"type" : "normal" }

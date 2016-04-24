@@ -1,0 +1,14 @@
+{
+	"category" : "PreferenceBrowser",
+	"classinstvars" : [
+		"registeredClasses" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"preference" ],
+	"name" : "PreferenceView",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

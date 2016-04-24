@@ -1,0 +1,12 @@
+misc
+drag: sourceWebElement andDropBy: aPoint
+
+	"
+http://selenium.googlecode.com/svn/trunk/docs/api/java/org/openqa/selenium/interactions/Actions.html#dragAndDropBy(org.openqa.selenium.WebElement,%20int,%20int)
+	"
+	
+	self
+		moveToElement: sourceWebElement offset: (1@1);
+		clickAndHold;
+		moveToElement: sourceWebElement offset: aPoint;
+		releaseButton.

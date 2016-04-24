@@ -1,0 +1,14 @@
+{
+	"category" : "Parasol-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPClickAndHoldAction",
+	"pools" : [
+		 ],
+	"super" : "BPAction",
+	"type" : "normal" }

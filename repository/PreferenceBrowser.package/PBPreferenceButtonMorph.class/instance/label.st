@@ -1,0 +1,3 @@
+preference accessing
+label
+	^self preferenceMorphicView firstSubmorph

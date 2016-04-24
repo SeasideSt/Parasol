@@ -1,0 +1,14 @@
+{
+	"category" : "Parasol-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value" ],
+	"name" : "BPValueHolder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"new" : "haerle 8/19/2014 14:55" },
+	"instance" : {
+		"componentClass" : "KrisGybels 6/29/2012 15:21",
+		"testClear" : "JohanBrichau 08/06/2014 08:50",
+		"testClearShouldClearFieldThatWasJustFilled" : "haerle 8/19/2014 14:55",
+		"testCssClassNames" : "CarstenHaerle 9/11/2014 16:29",
+		"testEquals" : "KrisGybels 4/12/2012 11:06",
+		"testFindElementByClassName" : "KrisGybels 6/29/2012 15:20",
+		"testFindElementByTagName" : "CarstenHaerle 9/11/2014 16:30",
+		"testFindElementsByClassName" : "CarstenHaerle 9/11/2014 16:30",
+		"testFindElementsByPartialLinkText" : "CarstenHaerle 9/11/2014 16:30",
+		"testFindElementsByTagName" : "CarstenHaerle 9/11/2014 16:30",
+		"testGetAttribute" : "KrisGybels 4/11/2012 14:46",
+		"testGetLocation" : "KrisGybels 4/11/2012 14:04",
+		"testGetSize" : "KrisGybels 4/11/2012 14:04",
+		"testGetText" : "KrisGybels 4/15/2012 16:05",
+		"testIsDisplayed" : "KrisGybels 4/11/2012 14:45",
+		"testSendKeys" : "JohanBrichau 08/06/2014 08:50",
+		"testWikipediaIsPresent" : "haerle 8/20/2014 11:19" } }

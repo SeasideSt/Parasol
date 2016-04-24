@@ -1,0 +1,6 @@
+initialize-release
+initWithRealClass: initializationRealClass instantiationNotificationBlock: initializationInstantiationNotificationBlock
+
+	self initialize.
+	realClass := initializationRealClass.
+	instantiationNotificationBlock := initializationInstantiationNotificationBlock.

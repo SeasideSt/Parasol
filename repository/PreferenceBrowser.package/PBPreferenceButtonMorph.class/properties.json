@@ -1,0 +1,18 @@
+{
+	"category" : "PreferenceBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"moreButton",
+		"model",
+		"preference",
+		"preferenceMorphicView",
+		"preferenceView" ],
+	"name" : "PBPreferenceButtonMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

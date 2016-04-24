@@ -1,0 +1,3 @@
+preferences search
+defaultSelected
+	Preferences chooseInitialSettings

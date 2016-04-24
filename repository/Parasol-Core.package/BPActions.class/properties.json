@@ -1,0 +1,15 @@
+{
+	"category" : "Parasol-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"driver",
+		"action" ],
+	"name" : "BPActions",
+	"pools" : [
+		 ],
+	"super" : "BPObject",
+	"type" : "normal" }

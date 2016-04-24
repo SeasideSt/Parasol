@@ -1,0 +1,18 @@
+{
+	"category" : "Parasol-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Platforms",
+		"PlatformsByName" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"toStringName",
+		"familyName",
+		"partOfOSNames" ],
+	"name" : "BPPlatform",
+	"pools" : [
+		 ],
+	"super" : "BPObject",
+	"type" : "normal" }

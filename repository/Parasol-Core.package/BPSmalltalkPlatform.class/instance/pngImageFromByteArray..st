@@ -1,0 +1,4 @@
+facade
+pngImageFromByteArray: aByteArray
+
+	self subclassResponsibility

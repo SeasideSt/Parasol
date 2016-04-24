@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"driverWithCapabilities:on:" : "haerle 8/19/2014 14:46",
+		"quitDriver:" : "KrisGybels 6/29/2012 15:22",
+		"quitOrCacheDriver:withCapabilities:" : "KrisGybels 10/9/2015 15:10",
+		"setUp" : "KrisGybels 4/17/2012 14:37",
+		"tearDown" : "KrisGybels 6/29/2012 15:22" } }

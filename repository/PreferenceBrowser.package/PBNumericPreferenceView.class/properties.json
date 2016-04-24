@@ -1,0 +1,14 @@
+{
+	"category" : "PreferenceBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PBNumericPreferenceView",
+	"pools" : [
+		 ],
+	"super" : "PBPreferenceView",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Parasol-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"drivers" ],
+	"name" : "BPWebDriverManagerResource",
+	"pools" : [
+		 ],
+	"super" : "TestResource",
+	"type" : "normal" }

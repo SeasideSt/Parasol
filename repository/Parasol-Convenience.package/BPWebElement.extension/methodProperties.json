@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"clickAt:" : "JohanBrichau 5/4/2015 09:18",
+		"contextClick" : "JohanBrichau 7/7/2012 13:16",
+		"contextClickAt:" : "JohanBrichau 7/7/2012 13:16",
+		"cssClassNames" : "CarstenHaerle 9/11/2014 16:54",
+		"doubleClick" : "JohanBrichau 7/7/2012 13:16",
+		"getDirectTextIngoreTextInDescandants" : "ThomasCleenewerck 5/30/2013 11:42",
+		"moveToElement" : "ThomasCleenewerck 2/29/2016 16:48",
+		"moveToElement:" : "ThomasCleenewerck 2/29/2016 16:58",
+		"sendKey:" : "KrisGybels 7/9/2012 15:10" } }

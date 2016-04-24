@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfParasol",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfParasol",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

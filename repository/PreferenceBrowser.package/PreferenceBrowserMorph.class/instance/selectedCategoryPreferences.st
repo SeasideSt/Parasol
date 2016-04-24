@@ -1,0 +1,3 @@
+model access
+selectedCategoryPreferences
+	^self model selectedCategoryPreferences

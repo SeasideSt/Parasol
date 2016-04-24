@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"initialize" : "hpt 9/26/2004 15:48",
+		"unload" : "ar 1/2/2010 16:33" },
+	"instance" : {
+		"haloThemeRadioButtons" : "nice 12/26/2009 19:01",
+		"initialize" : "hpt 12/8/2004 18:12",
+		"representativeButtonWithColor:inPanel:" : "hpt 9/26/2004 00:45" } }

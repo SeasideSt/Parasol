@@ -1,0 +1,3 @@
+preferences search
+saveSelected
+	preferences savePersonalPreferences 

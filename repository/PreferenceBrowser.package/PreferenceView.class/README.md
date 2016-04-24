@@ -1,0 +1,1 @@
+My subclasses instances are responsible for building the visual representation of each kind of preference.

@@ -1,0 +1,4 @@
+facade
+httpClient
+
+	^self subclassResponsibility

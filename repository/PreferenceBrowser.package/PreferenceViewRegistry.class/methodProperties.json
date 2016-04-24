@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"forType:" : "ar 8/25/2009 19:38",
+		"initialize" : "ar 8/9/2009 16:40",
+		"ofBooleanPreferences" : "hpt 9/26/2004 16:23",
+		"ofColorPreferences" : "hpt 9/26/2004 16:24",
+		"ofFontPreferences" : "hpt 9/26/2004 16:24",
+		"ofHaloThemePreferences" : "hpt 9/26/2004 16:23",
+		"ofNumericPreferences" : "hpt 12/9/2004 22:16",
+		"ofTextPreferences" : "hpt 9/26/2004 16:23",
+		"registries" : "hpt 9/26/2004 15:28",
+		"registryOf:" : "hpt 9/26/2004 15:33",
+		"removeObsolete" : "ar 8/9/2009 16:42",
+		"typeOfRegistry:" : "ar 8/25/2009 19:38" },
+	"instance" : {
+		"initialize" : "hpt 9/26/2004 16:22",
+		"register:" : "hpt 9/26/2004 15:26",
+		"registeredClasses" : "hpt 9/26/2004 15:26",
+		"unregister:" : "hpt 9/26/2004 15:26",
+		"viewClassFor:" : "hpt 9/26/2004 15:26",
+		"viewOrder" : "hpt 9/26/2004 16:22",
+		"viewOrder:" : "hpt 9/26/2004 16:22" } }

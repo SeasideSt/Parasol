@@ -1,0 +1,3 @@
+running
+componentUnderTest
+	^ testComponent value

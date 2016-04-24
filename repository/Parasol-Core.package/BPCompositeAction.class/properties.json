@@ -1,0 +1,14 @@
+{
+	"category" : "Parasol-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"actions" ],
+	"name" : "BPCompositeAction",
+	"pools" : [
+		 ],
+	"super" : "BPAction",
+	"type" : "normal" }

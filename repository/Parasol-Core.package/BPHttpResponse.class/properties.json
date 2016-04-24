@@ -1,0 +1,16 @@
+{
+	"category" : "Parasol-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"httpStatus",
+		"headers",
+		"contents" ],
+	"name" : "BPHttpResponse",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

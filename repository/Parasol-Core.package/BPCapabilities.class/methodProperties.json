@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"new" : "KrisGybels 10/9/2015 10:43",
+		"withDictionary:" : "KrisGybels 10/9/2015 10:42" },
+	"instance" : {
+		"=" : "KrisGybels 10/9/2015 10:10",
+		"asDictionary" : "KrisGybels 10/9/2015 10:09",
+		"getBrowserName" : "KrisGybels 10/9/2015 10:18",
+		"getCapability:" : "KrisGybels 10/9/2015 10:10",
+		"getPlatform" : "KrisGybels 10/9/2015 14:03",
+		"hash" : "KrisGybels 10/9/2015 10:10",
+		"initializeWithDictionary:" : "KrisGybels 10/9/2015 10:43" } }

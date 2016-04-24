@@ -1,0 +1,3 @@
+preferences search
+themeSelected 
+	preferences offerThemesMenu

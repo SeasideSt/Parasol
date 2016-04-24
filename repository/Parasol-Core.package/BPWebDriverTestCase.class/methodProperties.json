@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"defaultDesiredCapabilities" : "haerle 8/20/2014 09:13",
+		"defaultDesiredCapabilities:" : "haerle 8/20/2014 09:13",
+		"resources" : "KrisGybels 6/29/2012 15:13" },
+	"instance" : {
+		"baseURL" : "KrisGybels 10/9/2015 14:03",
+		"defaultTimeout" : "chaerle 8/20/2014 15:17",
+		"desiredDriverBrowserCapabilities" : "KrisGybels 6/29/2012 15:17",
+		"flag:" : "haerle 8/19/2014 14:46",
+		"setUp" : "CarstenHaerle 9/11/2014 16:53",
+		"startTestApp" : "haerle 8/20/2014 09:13",
+		"stopTestApp" : "haerle 8/20/2014 09:13",
+		"takeScreenshot" : "KrisGybels 10/9/2015 14:03",
+		"tearDown" : "haerle 8/20/2014 09:13" } }

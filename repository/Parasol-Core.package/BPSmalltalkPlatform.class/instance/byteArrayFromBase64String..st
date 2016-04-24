@@ -1,0 +1,3 @@
+facade
+byteArrayFromBase64String: aString
+	self subclassResponsibility

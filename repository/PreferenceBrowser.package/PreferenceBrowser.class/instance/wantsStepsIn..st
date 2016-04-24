@@ -1,0 +1,3 @@
+stepping
+wantsStepsIn: aWindow
+	^true.

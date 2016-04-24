@@ -1,0 +1,14 @@
+{
+	"category" : "Parasol-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPElementNotVisibleException",
+	"pools" : [
+		 ],
+	"super" : "BPException",
+	"type" : "normal" }
