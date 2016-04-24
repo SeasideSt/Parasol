@@ -5,4 +5,4 @@ startTestApp
 				register: (BPClassInstantiationNotificationWrapper
 						withRealClass: self componentClass
 						instantiationNotificationBlock: [:newInstance | self componentUnderTest: newInstance])
-				asApplicationAt: self registrationName)
+				asParasolTestApplicationAt: self registrationName)
