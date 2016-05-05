@@ -1,3 +1,3 @@
 facade
 fileDelete: filename
-	FileDirectory default deleteFileNamed: filename
+	filename asFileReference ensureDelete

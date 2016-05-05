@@ -4,7 +4,7 @@
 	"instance" : {
 		"byteArrayFromBase64String:" : "haerle 8/19/2014 14:54",
 		"ensureSeasideServerRunning" : "JohanBrichau 4/24/2016 11:18",
-		"fileDelete:" : "haerle 8/19/2014 14:54",
+		"fileDelete:" : "JohanBrichau 5/5/2016 16:49",
 		"fileWrite:contents:" : "haerle 8/19/2014 14:54",
 		"handleRequest:" : "haerle 8/20/2014 09:26",
 		"httpClient" : "haerle 8/19/2014 14:54",
