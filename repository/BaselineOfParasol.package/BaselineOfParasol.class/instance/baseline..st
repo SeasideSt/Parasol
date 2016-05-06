@@ -54,6 +54,7 @@ baseline: spec
 		spec baseline: 'ZincHTTP'.
 			
 		spec
+			package: 'Parasol-GemStone';
 			package: 'Parasol-Core' with: [ spec includes:#('Parasol-GemStone'); requires: #('ZincHTTP') ].
 	].
 	
