@@ -5,7 +5,7 @@ Parasol is a Pharo Smalltalk framework to automate web browsers. It's particular
 # Example
 
 Here's a straightforward annotated example of using Parasol to automate a search for “Pharo” on Wikipedia:
-```
+```Smalltalk
 "Open a web browser on the English-language Wikipedia home page."
 driver := BPRemoteWebDriver new.
 driver get: 'http://en.wikipedia.org/'.
@@ -30,7 +30,7 @@ To try Beach Parasol, you'll need a few things:
 `java -jar selenium-server-standalone-2.25.0.jar`
 
 To load the Parasol package into the Pharo image:
-```
+```Smalltalk
 Metacello new
     baseline: 'Parasol';
     repository: 'github://SeasideSt/Parasol/repository';
@@ -38,7 +38,7 @@ Metacello new
 ZnZincServerAdaptor startOn:8080.
 ```
 To load the Parasol package into a Squeak image (from the SS3 repo):
-```
+```Smalltalk
 Installer ss3
     project: 'Parasol';
     install: 'ConfigurationOfParasol'.
