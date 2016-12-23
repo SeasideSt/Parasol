@@ -2,7 +2,6 @@
 	"class" : {
 		"new" : "haerle 8/19/2014 14:55" },
 	"instance" : {
-		"componentClass" : "KrisGybels 6/29/2012 15:21",
 		"testClear" : "JohanBrichau 08/06/2014 08:50",
 		"testClearShouldClearFieldThatWasJustFilled" : "haerle 8/19/2014 14:55",
 		"testCssClassNames" : "CarstenHaerle 9/11/2014 16:29",

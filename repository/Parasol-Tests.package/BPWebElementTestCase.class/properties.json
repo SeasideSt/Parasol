@@ -10,5 +10,5 @@
 	"name" : "BPWebElementTestCase",
 	"pools" : [
 		 ],
-	"super" : "BPSeasideWebDriverTestCase",
+	"super" : "BPParasolSelfTestCase",
 	"type" : "normal" }
