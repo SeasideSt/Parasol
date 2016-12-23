@@ -3,6 +3,7 @@ exceptions
 
 	^ exceptions ifNil: [
 		(exceptions := Dictionary new)
+			at: 6 put: BPNoSuchSessionException;
 			at: 7 put: BPNoSuchElementException;
 			at: 10 put: BPStaleElementReferenceException;
 			at: 11 put: BPElementNotVisibleException;
