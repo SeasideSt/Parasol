@@ -1,4 +1,4 @@
 private
 quitDriver: driver
 
-	[ driver quit ] on: BPUnknownServerException do: [ :ex | ]
+	[ driver quit ] on: (BPNoSuchSessionException , BPUnknownServerException) do: [ :ex | ]

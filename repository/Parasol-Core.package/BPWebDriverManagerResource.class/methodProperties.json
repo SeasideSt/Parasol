@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"driverWithCapabilities:on:" : "haerle 8/19/2014 14:46",
-		"quitDriver:" : "KrisGybels 6/29/2012 15:22",
-		"quitOrCacheDriver:withCapabilities:" : "AndyKellens 11/22/2016 14:19",
+		"quitDriver:" : "KrisGybels 12/23/2016 16:20",
+		"quitOrCacheDriver:withCapabilities:" : "KrisGybels 12/23/2016 16:17",
 		"setUp" : "KrisGybels 4/17/2012 14:37",
 		"tearDown" : "KrisGybels 6/29/2012 15:22" } }
