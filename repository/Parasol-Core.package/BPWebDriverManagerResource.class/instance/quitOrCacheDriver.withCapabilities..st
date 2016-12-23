@@ -4,7 +4,7 @@ quitOrCacheDriver: driver withCapabilities: capabilities
 	drivers at: capabilities ifPresent: [ :cachedDriver | self quitDriver: driver. ^ self ].
 	[
 		| windowHandles |
-		driver getWindowHandles size - 1 timesRepeat: [ driver close ].
+		driver getWindowHandles allButFirst do: [ :windowHandle | driver switchTo window: windowHandle. driver close ].
 		windowHandles := driver getWindowHandles.
 		(windowHandles size = 1) ifFalse: [ self quitDriver: driver. ^ self ].
 		driver switchTo window: windowHandles anyOne.
