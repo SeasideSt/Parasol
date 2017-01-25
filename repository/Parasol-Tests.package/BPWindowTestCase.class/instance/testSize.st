@@ -4,8 +4,8 @@ testSize
 	| window1 windowHandle1 windowHandle2 window2 |
 	
 	window1 := driver manage window.
-	window1 setSize: 400@250.
-	self assert: window1 getSize = (400@250).
+	window1 setSize: 500@600.
+	self assert: window1 getSize = (500@600).
 	
 	windowHandle1 := driver getWindowHandle.
 	(driver findElementByPartialLinkText: 'Wikipedia') click.
