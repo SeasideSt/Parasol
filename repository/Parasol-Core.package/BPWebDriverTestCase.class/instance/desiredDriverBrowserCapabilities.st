@@ -1,4 +1,4 @@
 running
 desiredDriverBrowserCapabilities
 
-	^ BPDesiredCapabilities firefox
+	self subclassResponsibility.
