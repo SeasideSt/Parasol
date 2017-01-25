@@ -20,4 +20,3 @@ before_script:
 smalltalk:
   - Pharo-5.0
   - Pharo-4.0
-  - Squeak-5.1
