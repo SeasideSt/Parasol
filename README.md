@@ -1,6 +1,6 @@
 # Parasol
 
-Parasol (full name “Beach Parasol”) is a Smalltalk framework to automate web browsers. It’s particularly useful to write automated tests for Seaside web applications. Its design and implementation are based on the [Java Selenium WebDriver API](http://www.seleniumhq.org/projects/webdriver/).
+Parasol (full name “Beach Parasol”) is a Smalltalk framework to automate web browsers. It’s particularly useful to write automated tests for [Seaside](https://github.com/SeasideSt/Seaside) web applications. Its design and implementation are based on the [Java Selenium WebDriver API](http://www.seleniumhq.org/projects/webdriver/).
 
 
 ## Example
@@ -64,6 +64,11 @@ Now give the Wikipedia example from above a try! For more examples, check the te
 ## Documentation
 
 If you need more documentation, you can check the [documentation of Parasol’s Java counterpart](http://seleniumhq.github.io/selenium/docs/api/java/). Most classes and methods in Parasol were designed to closely follow their Java counterpart, to make it easier to use its documentation and translate from Java-based examples. Good starting points are the documentation for the [WebDriver](http://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebDriver.html) and [WebElement](http://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebElement.html) interfaces. They are the counterparts to `BPRemoteWebDriver` and `BPWebElement`.
+
+
+## Supported Smalltalk Platforms
+
+The best supported Smalltalk platform is [Pharo]((http://pharo.org). Work on supporting [GemStone](https://gemtalksystems.com/products/) is on-going. Work on supporting [Squeak](http://squeak.org) and [VisualWorks](http://www.cincomsmalltalk.com/main/products/visualworks/) has been done in the past, but at the moment, support for these two is not actively maintained. You should check the builds for the “travis-other-smalltalks” branch on [Travis CI](https://travis-ci.org/SeasideSt/Parasol/branches).
 
 
 ## GitHub versus SS3 Repository
