@@ -23,5 +23,6 @@
 		"testGetWindowHandles" : "KrisGybels 5/23/2012 19:04",
 		"testImplicitWait" : "KrisGybels 9/8/2013 20:17",
 		"testSwitchTo" : "KrisGybels 5/23/2012 19:53",
+		"testSwitchToActiveElement" : "KrisGybels 1/25/2017 12:36",
 		"testTakeScreenshot" : "haerle 8/19/2014 14:55",
 		"waitForDriverToFinishClosing" : "KrisGybels 4/10/2012 16:03" } }
