@@ -1,1 +1,0 @@
-I am responsible for building the visual representation of a preference that accepts true and false values. This view is aimed to be used inside a PreferenceBrowser panel.

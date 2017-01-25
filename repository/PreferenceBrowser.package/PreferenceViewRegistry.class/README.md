@@ -1,1 +1,0 @@
-PreferenceViewRegistry is much like the AppRegistry classes.  Its purpose is to allow PreferenceBrowser implementers to register its own views for each kind of preference.

@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"handlesPanel:" : "hpt 9/26/2004 16:09",
-		"preference:" : "hpt 9/24/2004 22:25" },
-	"instance" : {
-		"initializeWithPreference:" : "hpt 9/24/2004 22:25",
-		"preference" : "hpt 9/24/2004 22:25",
-		"representativeButtonWithColor:inPanel:" : "hpt 9/24/2004 22:56",
-		"tearOffButton" : "hpt 9/26/2004 16:14" } }

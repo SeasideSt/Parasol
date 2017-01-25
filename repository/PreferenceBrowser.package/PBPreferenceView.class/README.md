@@ -1,1 +1,0 @@
-I am just a refactor of all the common method of the PreferenceBrowser preference views

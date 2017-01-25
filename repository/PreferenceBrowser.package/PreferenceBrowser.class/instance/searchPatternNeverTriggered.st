@@ -1,4 +1,0 @@
-accessing
-searchPatternNeverTriggered
-
-	^self searchPattern

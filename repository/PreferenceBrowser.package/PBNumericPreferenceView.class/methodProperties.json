@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"initialize" : "hpt 12/9/2004 22:21",
-		"unload" : "ar 1/2/2010 16:33" },
-	"instance" : {
-		"preferenceValue" : "hpt 12/9/2004 22:23",
-		"preferenceValue:" : "hpt 12/10/2004 22:53",
-		"representativeButtonWithColor:inPanel:" : "hpt 12/9/2004 22:19",
-		"textField" : "mt 4/19/2015 09:07" } }

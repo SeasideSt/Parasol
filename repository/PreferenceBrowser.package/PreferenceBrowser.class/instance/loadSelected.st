@@ -1,3 +1,0 @@
-preferences search
-loadSelected
-	preferences restorePersonalPreferences 

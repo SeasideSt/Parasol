@@ -1,3 +1,0 @@
-class initialization
-initialize
-	PreferenceViewRegistry ofTextPreferences register: self.

@@ -1,3 +1,0 @@
-model access
-selectedPreferenceIndex
-	^self model selectedPreferenceIndex

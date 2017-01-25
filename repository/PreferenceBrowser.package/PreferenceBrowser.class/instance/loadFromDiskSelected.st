@@ -1,3 +1,0 @@
-preferences search
-loadFromDiskSelected 
-	preferences restorePreferencesFromDisk
