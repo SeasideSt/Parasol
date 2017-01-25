@@ -1,13 +1,13 @@
 # Parasol
 
-Parasol is a Pharo Smalltalk framework to automate web browsers. It's particularly useful to write automated tests for Seaside web applications. Its design and implementation are based on the Java Selenium WebDriver API.
+Parasol (full name “Beach Parasol”) is a Pharo Smalltalk framework to automate web browsers. It's particularly useful to write automated tests for Seaside web applications. Its design and implementation are based on the Java Selenium WebDriver API.
 
 # Example
 
 Here's a straightforward annotated example of using Parasol to automate a search for “Pharo” on Wikipedia:
 ```Smalltalk
 "Open a web browser on the English-language Wikipedia home page."
-driver := BPRemoteWebDriver new.
+driver := BPRemoteWebDriver withCapabilities: BPDesiredCapabilities chrome.
 driver get: 'http://en.wikipedia.org/'.
 
 "Click on the search box and type in 'Pharo' followed by a press of the Return key."
@@ -20,24 +20,22 @@ Transcript show: ((driver findElementByID: 'mw-content-text') findElementByTagNa
 "Tell the browser to quit."
 driver quit.
 ```
+
+# ESUG 2013 Presentation
+
+A presentation about Beach Parasol was given at the ESUG 2013 conference, a [video is available on YouTube](https://www.youtube.com/watch?v=CoJ-Wnno6TY).
+
 # Hands-On
 
 To try Beach Parasol, you'll need a few things:
-- A Pharo image. We use and test with latest stable Pharo. Or a Squeak image. Tested with 4.4.
-- The Firefox web browser
-- The [Selenium standalone server](http://docs.seleniumhq.org/download/) ("selenium-server-standalone-2.52.0.jar" at the time of writing)
+- A Pharo image (Pharo 4.0 #40625, or Pharo 5)
+- The Chrome web browser
+- The [Selenium standalone server](http://docs.seleniumhq.org/download/) ("selenium-server-standalone-3.0.1.jar" at the time of writing)
+- The [Chromedriver](https://sites.google.com/a/chromium.org/chromedriver/) for your operating system, you should unzip it and place it in the same folder as the Selenium server JAR.
 - To run the Selenium server, execute the following on the command line:
-`java -jar selenium-server-standalone-2.25.0.jar`
+`java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.0.1.jar`
 
 To load the Parasol package into the Pharo image:
-```Smalltalk
-Metacello new
-    baseline: 'Parasol';
-    repository: 'github://SeasideSt/Parasol/repository';
-    load: 'tests'.
-ZnZincServerAdaptor startOn:8080.
-```
-To load the Parasol package into a Squeak image (from the SS3 repo):
 ```Smalltalk
 Installer ss3
     project: 'Parasol';
@@ -46,8 +44,21 @@ Installer ss3
 WAWebServerAdaptor startOn: 8080.
 ```
 
+Note: the above loads from the main repository at [SS3](http://ss3.gemstone.com/ss/Parasol.html), you can also load from the GitHub repository but keep in
+mind that it may not be up-to-date:
+```Smalltalk
+Metacello new
+    baseline: 'Parasol';
+    repository: 'github://SeasideSt/Parasol/repository';
+    load: 'tests'.
+ZnZincServerAdaptor startOn:8080.
+```
+
 For examples, take a look at the tests in `BPRemoteWebDriverTestCase` and `BPWebElementTestCase`.
-Note that if you want to use the Chrome web browser, you'll also need the appropriate chromedriver. You should put the unzipped chromedriver in the same directory as your “selenium-server-standalone” jar file.
 
 # Build Status
  - [![master branch:](https://travis-ci.org/SeasideSt/Parasol.svg?branch=master)](https://travis-ci.org/SeasideSt/Parasol)
+
+# Related
+- [AutomaticParasol](https://github.com/nymch/AutomaticParasol): for running SeleniumIDE-Generated Tests in Pharo Smalltalk (using Parasol).
+- [WebDriver](http://smalltalkhub.com/#!/~TorstenBergmann/WebDriver): alternative Pharo WebDriver package described as “based on Parasol but clean room and for Pharo only.”
