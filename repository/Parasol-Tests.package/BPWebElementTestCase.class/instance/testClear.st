@@ -16,4 +16,4 @@ testClear
 
 	driver get: self baseURL asString.
 	secretField := driver findElementByName: 'secretField'.
-	self should: [ secretField clear ] raise: BPElementNotVisibleException.
+	self should: [ secretField clear ] raise: (BPElementNotVisibleException , BPInvalidElementStateException).

@@ -1,21 +1,27 @@
-language: smalltalk
-sudo: false
+sudo: required
+dist: trusty
 addons:
-  firefox: "47.0.1"
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable
+language: smalltalk
 before_install:
-  - export CHROME_BIN=chromium-browser
   - "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1280x1024x16"
 before_script:
-  - wget http://selenium-release.storage.googleapis.com/2.53/selenium-server-standalone-2.53.1.jar
+  - wget http://selenium-release.storage.googleapis.com/3.0/selenium-server-standalone-3.0.1.jar
+  - wget https://chromedriver.storage.googleapis.com/2.27/chromedriver_linux64.zip
+  - unzip chromedriver_linux64.zip
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
   - sleep 3 # give xvfb some time to start
-  - "java -jar selenium-server-standalone-2.53.1.jar -port 4444 > /tmp/seleniumlog.&"
+  - "java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.0.1.jar -port 4444 > /tmp/seleniumlog.&"
 smalltalk:
   - Pharo-5.0
   - Pharo-4.0
 #  - Pharo-3.0
-  - Squeak-4.6
+#  - Squeak-4.6
   - Squeak-5.1
 #  - GemStone-3.1.0.6
 #  - GemStone-3.2.12

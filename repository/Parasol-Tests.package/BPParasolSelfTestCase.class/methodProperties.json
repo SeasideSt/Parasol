@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"componentClass" : "KrisGybels 12/23/2016 15:36" } }
+		"componentClass" : "KrisGybels 12/23/2016 15:36",
+		"desiredDriverBrowserCapabilities" : "KrisGybels 1/25/2017 14:10" } }
