@@ -17,6 +17,7 @@
 		"testFindElementsByPartialLinkTest" : "AndyKellens 2/13/2013 16:49",
 		"testFindElementsByXPath" : "KrisGybels 10/2/2012 11:48",
 		"testGetCapabilities" : "KrisGybels 1/25/2017 14:11",
+		"testGetCurrentURL" : "KrisGybels 2/27/2017 16:53",
 		"testGetPageSource" : "KrisGybels 1/25/2017 14:12",
 		"testGetScreenshotAsByteArray" : "KrisGybels 10/9/2015 14:03",
 		"testGetWindowHandle" : "KrisGybels 5/23/2012 19:03",

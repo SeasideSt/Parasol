@@ -29,6 +29,7 @@
 		"findElementsByXPath:" : "StephanEggermont 10/1/2012 19:40",
 		"get:" : "haerle 8/19/2014 14:46",
 		"getCapabilities" : "KrisGybels 10/9/2015 10:44",
+		"getCurrentURL" : "KrisGybels 2/27/2017 16:34",
 		"getKeyboard" : "KrisGybels 6/29/2012 15:19",
 		"getPageSource" : "haerle 8/19/2014 14:46",
 		"getScreenshotAsByteArray" : "KrisGybels 10/9/2015 14:03",
