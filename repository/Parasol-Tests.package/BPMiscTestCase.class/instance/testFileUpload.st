@@ -1,7 +1,7 @@
 testing
 testFileUpload
 
-	| fileupload filesubmit file |
+	| fileupload filesubmit file receivedFile |
 	
 	file := BPSmalltalkPlatform current fileWrite: 'Test.data' contents: 'Hello World!'.
 
@@ -11,5 +11,8 @@ testFileUpload
 		fileupload sendKeys: file.
 		filesubmit click.
 	
-		self assert: (self componentUnderTest receivedFile contentsDecodedUsing: 'UTF-8') = 'Hello World!'.
+		receivedFile := self waitUntil: [ self componentUnderTest receivedFile ] is: [ :value | value notNil ]
+			checkEvery: (Duration milliseconds: 100) timeoutAfter: (Duration seconds: 5) with: [ nil ].
+		self assert: receivedFile notNil.
+		self assert: (receivedFile contentsDecodedUsing: 'UTF-8') = 'Hello World!'.
 	] ensure: [  BPSmalltalkPlatform current fileDelete: file ].
