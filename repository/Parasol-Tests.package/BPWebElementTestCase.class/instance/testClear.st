@@ -1,7 +1,8 @@
 running
 testClear
 
-	| inputField submitButton secretField |
+	| inputField submitButton secretField submittedValue |
+	
 	inputField := driver findElementByID: 'inputField'.
 	submitButton := driver findElementByID: 'submitButton'.
 
@@ -10,7 +11,9 @@ testClear
 	inputField sendKeys: 'ABC'.
 	inputField sendKeys: 'DEF'.
 	submitButton click.
-	self assert: self componentUnderTest inputFieldValue = 'ABCDEF'.
+	submittedValue := self waitUntil: [ self componentUnderTest inputFieldValue ] is: [ :value | value notNil ]
+		checkEvery: (Duration milliseconds: 100) timeoutAfter: (Duration seconds: 5) with: [ nil ].
+	self assert: submittedValue equals: 'ABCDEF'.
 
 	self should: [ inputField clear ] raise: BPStaleElementReferenceException.
 
