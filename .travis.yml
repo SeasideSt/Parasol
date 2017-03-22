@@ -20,3 +20,5 @@ before_script:
 smalltalk:
   - Pharo-5.0
   - Pharo-4.0
+  - GemStone-2.4.4.1
+  - GemStone-3.2.15
