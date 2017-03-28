@@ -1,4 +1,4 @@
 running
 testGetWindowHandle
 
-	self assert: (driver getWindowHandle) isEmpty not.	
+	self assert: (driver getWindowHandle) isEmpty not.

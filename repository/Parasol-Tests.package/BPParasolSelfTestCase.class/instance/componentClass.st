@@ -1,4 +1,4 @@
 running
 componentClass
 
-	^ BPTestComponent 
+	^ BPTestComponent
