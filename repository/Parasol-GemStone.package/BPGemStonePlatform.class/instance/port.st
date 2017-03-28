@@ -1,3 +1,3 @@
 tests
 port
-	^ WAGemStoneRunSeasideGems default ports first
+	^ 8383

@@ -4,6 +4,7 @@
 	"instance" : {
 		"beforeRunCase" : "JohanBrichau 03/28/2017 11:47",
 		"byteArrayFromBase64String:" : "JohanBrichau 09/05/2014 07:30",
+		"ensureSeasideServerRunning" : "JohanBrichau 03/28/2017 19:57",
 		"fileDelete:" : "JohanBrichau 09/05/2014 07:34",
 		"handleRequest:" : "JohanBrichau 09/05/2014 07:42",
 		"httpClient" : "JohanBrichau 09/05/2014 07:31",
@@ -17,7 +18,7 @@
 		"mimeTypeClass" : "JohanBrichau 06/08/2014 22:34",
 		"name" : "JohanBrichau 06/08/2014 22:34",
 		"pngImageFromByteArray:" : "JohanBrichau 09/05/2014 07:32",
-		"port" : "JohanBrichau 07/04/2014 04:40",
+		"port" : "JohanBrichau 03/28/2017 19:58",
 		"stopSeasideTestApp:" : "JohanBrichau 03/28/2017 16:29",
 		"urlClass" : "JohanBrichau 06/08/2014 22:34",
 		"urlFor:" : "JohanBrichau 06/08/2014 22:34" } }
