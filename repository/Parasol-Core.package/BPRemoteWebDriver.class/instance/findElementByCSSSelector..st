@@ -6,5 +6,3 @@ findElementByCSSSelector: cssSelectorString
 	"
 	
 	^ self findElementBy: 'css selector' with: cssSelectorString
-
-	

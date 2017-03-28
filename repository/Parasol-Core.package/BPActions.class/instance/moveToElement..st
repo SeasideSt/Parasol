@@ -6,4 +6,3 @@ moveToElement: webElement
 	"
 	
 	action addAction: (BPMoveMouseAction driver: driver element: webElement)
-	

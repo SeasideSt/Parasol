@@ -6,4 +6,3 @@ doubleClick
 	"
 	
 	action addAction: (BPDoubleClickAction driver: driver)
-	

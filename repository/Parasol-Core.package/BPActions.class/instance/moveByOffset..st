@@ -6,4 +6,3 @@ moveByOffset: offset
 	"
 	
 	action addAction: (BPMoveMouseAction driver: driver offset: offset)
-	

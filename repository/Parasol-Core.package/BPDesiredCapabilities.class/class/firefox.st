@@ -8,4 +8,3 @@ firefox
 	^ self new
 		setCapability: 'browserName' to: 'firefox';
 		yourself
-	

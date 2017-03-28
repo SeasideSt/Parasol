@@ -6,4 +6,3 @@ moveToElement: webElement offset: aPoint
 	"
 	
 	action addAction: ((BPMoveMouseAction driver: driver element: webElement) xOffset: aPoint x yOffset: aPoint y; yourself)
-	

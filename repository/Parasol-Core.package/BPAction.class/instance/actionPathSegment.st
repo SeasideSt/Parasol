@@ -1,3 +1,3 @@
 misc
 actionPathSegment 
-	self subclassResponsibility 
+	self subclassResponsibility
