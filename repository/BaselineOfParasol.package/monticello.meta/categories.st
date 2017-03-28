@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #BaselineOfParasol!
+SystemOrganization addCategory: #'BaselineOfParasol'!
