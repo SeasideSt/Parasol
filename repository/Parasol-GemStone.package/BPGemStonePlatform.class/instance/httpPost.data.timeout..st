@@ -12,5 +12,5 @@ httpPost: url data: data timeout: seconds
 					entity: data2;
 					post;
 					response ]
-	] ensure: [ System continueTransaction ifFalse:[ self error: 'Parasol error: continueTransaction failed.' ].].
+	] ensure: [ System commitTransaction ifFalse:[ self error: 'Parasol error: commitTransaction failed.' ].].
 	^ result
