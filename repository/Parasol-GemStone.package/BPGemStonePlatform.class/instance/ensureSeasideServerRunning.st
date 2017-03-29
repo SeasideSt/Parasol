@@ -1,5 +1,5 @@
 facade
 ensureSeasideServerRunning
-	"|gemserver|
+	|gemserver|
 	(GemServer gemServerNamed: 'Seaside') ifNil:[
-		(ZnSeasideGemServer register: 'Seaside' on: { self port }) startGems ]."
+		((Smalltalk at: #ZnSeasideGemServer) register: 'Seaside' on: { self port }) startGems ].
