@@ -65,6 +65,7 @@ Now give the Wikipedia example from above a try! For more examples, check the te
 
 If you need more documentation, you can check the [documentation of Parasol’s Java counterpart](http://seleniumhq.github.io/selenium/docs/api/java/). Most classes and methods in Parasol were designed to closely follow their Java counterpart, to make it easier to use its documentation and translate from Java-based examples. Good starting points are the documentation for the [WebDriver](http://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebDriver.html) and [WebElement](http://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebElement.html) interfaces. They are the counterparts to `BPRemoteWebDriver` and `BPWebElement`.
 
+The [Seaside tutorial offered by the HPI Software Architecture Group](http://www.hpi.uni-potsdam.de/hirschfeld/seaside/tutorial) has a chapter on “Testing Seaside Applications” using Parasol.
 
 ## Supported Smalltalk Platforms
 
