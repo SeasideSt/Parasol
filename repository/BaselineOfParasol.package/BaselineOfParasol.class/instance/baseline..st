@@ -73,5 +73,5 @@ baseline: spec
 				spec
 					className: 'BaselineOfZincHTTPComponents';
 					loads: 'Core';
-					repository: 'github://GsDevKit/zinc:2.4.3/repository'].
+					repository: 'github://GsDevKit/zinc:gs_master/repository'].
 	].

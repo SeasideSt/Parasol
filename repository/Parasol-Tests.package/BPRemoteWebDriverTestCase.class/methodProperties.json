@@ -3,6 +3,7 @@
 		"packageNamesUnderTest" : "KrisGybels 5/22/2012 10:09" },
 	"instance" : {
 		"configureTestApp:" : "JohanBrichau 7/4/2014 13:20",
+		"expectedFailures" : "JohanBrichau 03/28/2017 20:54",
 		"testClose" : "KrisGybels 1/25/2017 14:11",
 		"testExecuteWith" : "KrisGybels 4/13/2012 09:48",
 		"testFindElementByCSSSelector" : "KrisGybels 7/4/2012 10:00",

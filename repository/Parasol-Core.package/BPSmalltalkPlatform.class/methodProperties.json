@@ -4,6 +4,7 @@
 		"current:" : "haerle 8/20/2014 09:13",
 		"initialize" : "KrisGybels 10/9/2015 14:03" },
 	"instance" : {
+		"beforeRunCase" : "JohanBrichau 03/28/2017 11:46",
 		"byteArrayFromBase64String:" : "haerle 8/19/2014 14:46",
 		"ensureSeasideServerRunning" : "KrisGybels 8/26/2014 20:23",
 		"fileDelete:" : "haerle 8/19/2014 14:46",
@@ -17,4 +18,5 @@
 		"pngImageFromByteArray:" : "haerle 8/20/2014 09:13",
 		"port" : "haerle 8/19/2014 14:46",
 		"port:" : "haerle 8/19/2014 14:46",
-		"signalException:" : "haerle 8/19/2014 14:46" } }
+		"signalException:" : "haerle 8/19/2014 14:46",
+		"stopSeasideTestApp:" : "JohanBrichau 03/28/2017 11:37" } }
