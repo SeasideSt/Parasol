@@ -68,7 +68,7 @@ If you need more documentation, you can check the [documentation of Parasol’s 
 
 ## Supported Smalltalk Platforms
 
-The best supported Smalltalk platform is [Pharo](http://pharo.org). Work on supporting [GemStone](https://gemtalksystems.com/products/) is on-going. Work on supporting [Squeak](http://squeak.org) and [VisualWorks](http://www.cincomsmalltalk.com/main/products/visualworks/) has been done in the past, but at the moment, support for these two is not actively maintained. You should check the builds for the “travis-other-smalltalks” branch on [Travis CI](https://travis-ci.org/SeasideSt/Parasol/branches).
+The main Smalltalk platform for Parasol is [Pharo](http://pharo.org). Other supported Smalltalk platforms are [GemStone](https://gemtalksystems.com/products/) and [Squeak](http://squeak.org). There was support for [VisualWorks](http://www.cincomsmalltalk.com/main/products/visualworks/) in the past, but this has been removed due to lack of maintenance (see [issue #8](https://github.com/SeasideSt/Parasol/issues/8)), let us know if you’re interested in VisualWorks support).
 
 
 ## GitHub versus SS3 Repository
