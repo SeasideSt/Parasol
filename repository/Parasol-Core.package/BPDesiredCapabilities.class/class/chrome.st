@@ -8,3 +8,4 @@ chrome
 	^ self new
 		setCapability: 'browserName' to: 'chrome';
 		yourself
+	

@@ -36,3 +36,4 @@ renderContentOn: html
 		html fileUpload callback: [ :value | receivedFile := value ].
 		html submitButton id: 'sendFile'; with: 'Send File'
 	].
+

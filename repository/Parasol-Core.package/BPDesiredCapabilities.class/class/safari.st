@@ -8,3 +8,4 @@ safari
 	^ self new
 		setCapability: 'browserName' to: 'safari';
 		yourself
+	

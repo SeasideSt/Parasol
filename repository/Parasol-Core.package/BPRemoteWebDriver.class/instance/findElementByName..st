@@ -6,3 +6,4 @@ findElementByName: nameString
 	"
 
 	^ self findElementBy: 'name' with: nameString
+
