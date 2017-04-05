@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Parasol-GemStone'!
+SystemOrganization addCategory: 'Parasol-GemStone'!
