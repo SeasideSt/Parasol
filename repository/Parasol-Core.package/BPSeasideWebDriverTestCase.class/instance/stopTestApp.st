@@ -1,4 +1,3 @@
 running
 stopTestApp
-
-	WAAdmin unregister: self registrationName
+	BPSmalltalkPlatform current stopSeasideTestApp: self registrationName

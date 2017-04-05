@@ -1,3 +1,0 @@
-facade
-name
-	^'VW'
