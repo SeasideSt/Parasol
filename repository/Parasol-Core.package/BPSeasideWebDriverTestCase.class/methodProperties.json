@@ -8,6 +8,7 @@
 		"componentUnderTest:" : "CarstenHaerle 9/11/2014 16:54",
 		"configureTestApp:" : "CarstenHaerle 9/11/2014 16:54",
 		"registrationName" : "haerle 8/20/2014 09:13",
-		"setUp" : "KrisGybels 10/9/2015 14:03",
+		"setUp" : "JohanBrichau 04/06/2017 10:36",
+		"shouldEnsureSeasideServerRunning" : "JohanBrichau 04/06/2017 10:37",
 		"startTestApp" : "JohanBrichau 03/28/2017 10:14",
 		"stopTestApp" : "JohanBrichau 03/28/2017 11:39" } }
