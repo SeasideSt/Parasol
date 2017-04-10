@@ -12,7 +12,12 @@ Public API and Key Messages
 If you need to initialize your component with datas you have two hooks at your disposal.
 
 - #intializeComponentUnderTest:  		The hook allow to customize the component to test for all tests
-- #initializationMap 					Allow to customize the component for some tests only. To get more detail check the comment inside this method.  
+		
+You can also add a pragma to a test to customize the state of the component to test. For example:
+
+	testComponentWithSpecificCustomization
+		<componentInitializer: #initializeComponentForSpecificTest:>
+		self assert: (driver findElementByClassName: 'testStringToDisplay') getText equals: 'I am a specific test for only one test of the application.'
 	
  
 Internal Representation and Key Implementation Points.

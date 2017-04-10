@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "CyrilFerlicot 3/23/2017 14:46",
+	"commentStamp" : "CyrilFerlicot 4/10/2017 16:31",
 	"super" : "BPWebDriverTestCase",
 	"category" : "Parasol-Core",
 	"classinstvars" : [ ],
