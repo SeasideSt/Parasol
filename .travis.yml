@@ -18,6 +18,7 @@ before_script:
   - sleep 3 # give xvfb some time to start
   - "java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.3.1.jar -port 4444 > /tmp/seleniumlog.&"
 smalltalk:
+  - Pharo-6.0
   - Pharo-5.0
   - Pharo-4.0
   - Squeak-5.1
