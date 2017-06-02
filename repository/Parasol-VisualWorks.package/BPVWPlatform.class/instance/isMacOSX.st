@@ -1,4 +1,0 @@
-facade
-isMacOSX
-
-	^InputManager isMacOSX

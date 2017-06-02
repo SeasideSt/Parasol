@@ -1,0 +1,3 @@
+facade
+stopSeasideTestApp: registrationName
+	WAAdmin unregister: registrationName

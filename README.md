@@ -65,15 +65,16 @@ Now give the Wikipedia example from above a try! For more examples, check the te
 
 If you need more documentation, you can check the [documentation of Parasol’s Java counterpart](http://seleniumhq.github.io/selenium/docs/api/java/). Most classes and methods in Parasol were designed to closely follow their Java counterpart, to make it easier to use its documentation and translate from Java-based examples. Good starting points are the documentation for the [WebDriver](http://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebDriver.html) and [WebElement](http://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebElement.html) interfaces. They are the counterparts to `BPRemoteWebDriver` and `BPWebElement`.
 
+The [Seaside tutorial offered by the HPI Software Architecture Group](http://www.hpi.uni-potsdam.de/hirschfeld/seaside/tutorial) has a chapter on “Testing Seaside Applications” using Parasol.
 
 ## Supported Smalltalk Platforms
 
-The best supported Smalltalk platform is [Pharo](http://pharo.org). Work on supporting [GemStone](https://gemtalksystems.com/products/) is on-going. Work on supporting [Squeak](http://squeak.org) and [VisualWorks](http://www.cincomsmalltalk.com/main/products/visualworks/) has been done in the past, but at the moment, support for these two is not actively maintained. You should check the builds for the “travis-other-smalltalks” branch on [Travis CI](https://travis-ci.org/SeasideSt/Parasol/branches).
+The main Smalltalk platform for Parasol is [Pharo](http://pharo.org). Other supported Smalltalk platforms are [GemStone](https://gemtalksystems.com/products/) and [Squeak](http://squeak.org). There was support for [VisualWorks](http://www.cincomsmalltalk.com/main/products/visualworks/) in the past, but this has been removed due to lack of maintenance (see [issue #8](https://github.com/SeasideSt/Parasol/issues/8), let us know if you’re interested in VisualWorks support).
 
 
 ## GitHub versus SS3 Repository
 
-At the moment, the [main repository for Parasol is on SqueakSource3](http://ss3.gemstone.com/ss/Parasol.html). The [GitHub repository](https://github.com/SeasideSt/Parasol) should be a mirror with the latest package versions, but if you find that it is out of date, please do [file an issue](https://github.com/SeasideSt/Parasol/issues).
+An [older repository for Parasol exists on SqueakSource3](http://ss3.gemstone.com/ss/Parasol.html). This [GitHub repository](https://github.com/SeasideSt/Parasol) is the current development repository, the older SqueakSource3 repository is no longer kept up-to-date.
 
 
 ## Build Status [![master branch:](https://travis-ci.org/SeasideSt/Parasol.svg?branch=master)](https://travis-ci.org/SeasideSt/Parasol/branches)
