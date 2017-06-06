@@ -79,7 +79,7 @@ An [older repository for Parasol exists on SqueakSource3](http://ss3.gemstone.co
 
 ## Build Status [![master branch:](https://travis-ci.org/SeasideSt/Parasol.svg?branch=master)](https://travis-ci.org/SeasideSt/Parasol/branches)
 
-Parasol’s self-tests are automatically ran on [Travis CI](https://travis-ci.org/SeasideSt/Parasol/branches), the image above shows the status of the latest build of the “master” branch.
+Parasol’s self-tests are automatically ran on [Travis CI](https://travis-ci.org/SeasideSt/Parasol/branches), the image above shows the status of the latest build of the “master” branch. Please note there's an open issue regarding some of the self-tests failing randomly ([issue #2](https://github.com/SeasideSt/Parasol/issues/2)).
 
 
 ## Related
