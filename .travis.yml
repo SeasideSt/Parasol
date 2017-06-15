@@ -18,6 +18,7 @@ before_script:
   - sleep 3 # give xvfb some time to start
   - "java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.3.1.jar -port 4444 > /tmp/seleniumlog.&"
 smalltalk:
+  - Pharo-alpha
   - Pharo-6.0
   - Pharo-5.0
   - Pharo-4.0
@@ -25,3 +26,5 @@ smalltalk:
   - GemStone-3.3.3
   - GemStone-3.2.15
   - GemStone-3.1.0.6
+allow_failures:
+  - smalltalk: Pharo-alpha
