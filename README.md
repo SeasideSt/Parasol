@@ -28,7 +28,7 @@ Check the Hands-On section below to learn how to run the example yourself.
 
 ## Introduction Video
 
-On YouTube you can find an [introduction video about Beach Parasol](https://www.youtube.com/watch?v=CoJ-Wnno6TY). The video is a recording of a talk that was given at the ESUG 2013 conference.
+On YouTube you can find an [introduction video about Beach Parasol](https://www.youtube.com/watch?v=CoJ-Wnno6TY). The video is a recording of a talk that was given at the ESUG 2013 conference. The slides of this talk are also available on [SlideShare](https://www.slideshare.net/esug/4-beach-parasol-presentation) and as a [PDF](http://esug.org/data/ESUG2013/1-Mon/04-Beach%20Parasol%20Presentation.pdf).
 
 
 ## Hands-On
