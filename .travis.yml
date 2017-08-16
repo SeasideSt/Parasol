@@ -35,3 +35,4 @@ allow_failures:
   - smalltalk: Pharo-alpha
   - smalltalk: Pharo64-7.0
   - smalltalk: Pharo-7.0
+  - smalltalk: Pharo64-6.0
