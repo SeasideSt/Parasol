@@ -1,14 +1,11 @@
 {
-	"category" : "Parasol-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "BPMoveMouseAction",
-	"pools" : [
-		 ],
 	"super" : "BPAction",
-	"type" : "normal" }
+	"category" : "Parasol-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPMoveMouseAction",
+	"type" : "normal"
+}

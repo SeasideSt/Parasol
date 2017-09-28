@@ -1,16 +1,18 @@
 {
+	"commentStamp" : "haerle 8/19/2014 14:46",
+	"super" : "BPObject",
 	"category" : "Parasol-Core",
-	"classinstvars" : [
-		 ],
+	"classinstvars" : [ ],
+	"pools" : [ ],
 	"classvars" : [
 		"ServerHost",
-		"ServerPort" ],
-	"commentStamp" : "haerle 8/19/2014 14:46",
+		"ServerPort"
+	],
 	"instvars" : [
 		"sessionID",
-		"exceptions" ],
+		"capabilities",
+		"exceptions"
+	],
 	"name" : "BPRemoteWebDriver",
-	"pools" : [
-		 ],
-	"super" : "BPObject",
-	"type" : "normal" }
+	"type" : "normal"
+}
