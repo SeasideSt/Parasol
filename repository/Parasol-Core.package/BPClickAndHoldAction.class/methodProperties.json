@@ -1,5 +1,8 @@
 {
-	"class" : {
-		"driver:" : "KrisGybels 4/12/2012 11:37" },
 	"instance" : {
-		"actionPathSegment" : "JohanBrichau 5/10/2012 14:34" } }
+		"actionPathSegment" : "JohanBrichau 5/10/2012 14:34"
+	},
+	"class" : {
+		"driver:" : "KrisGybels 4/12/2012 11:37"
+	}
+}

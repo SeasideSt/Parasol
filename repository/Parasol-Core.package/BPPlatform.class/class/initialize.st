@@ -8,7 +8,7 @@ initialize
 	Platforms add: (self withName: 'WIN8' partOfOSNames: #('Windows Server 2012' 'windows 8' 'win8') toStringName: 'WIN8' familyName: 'WINDOWS').
 	Platforms add: (self withName: 'WIN8_1' partOfOSNames: #('windows 8.1' 'win8.1') toStringName: 'WIN8_1' familyName: 'WINDOWS').
 
-	Platforms add: (self withName: 'MAC' partOfOSNames: #('mac' 'darwin' 'os x') toStringName: 'MAC' familyName: 'ANY').
+	Platforms add: (self withName: 'MAC' partOfOSNames: #('mac' 'darwin' 'macOS' 'mac os x' 'os x') toStringName: 'MAC' familyName: 'ANY').
 	Platforms add: (self withName: 'SNOW_LEOPARD' partOfOSNames: #('snow leopard' 'os x 10.6') toStringName: 'OS X 10.6' familyName: 'MAC').
 	Platforms add: (self withName: 'MOUNTAIN_LION' partOfOSNames: #('mountain lion' 'os x 10.8') toStringName: 'OS X 10.8' familyName: 'MAC').
 	Platforms add: (self withName: 'MAVERICKS' partOfOSNames: #('mavericks' 'os x 10.9') toStringName: 'OS X 10.9' familyName: 'MAC').
