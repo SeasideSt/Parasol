@@ -1,6 +1,9 @@
 {
-	"class" : {
-		"new" : "StephanEggermont 9/28/2012 16:49" },
 	"instance" : {
 		"flag:" : "haerle 8/19/2014 14:46",
-		"initialize" : "StephanEggermont 9/28/2012 16:47" } }
+		"initialize" : "StephanEggermont 9/28/2012 16:47"
+	},
+	"class" : {
+		"new" : "StephanEggermont 9/28/2012 16:49"
+	}
+}

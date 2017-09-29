@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testJsonWebElement" : "KrisGybels 10/9/2015 14:03",
+		"testParseWebElement" : "KrisGybels 10/9/2015 14:03",
 		"testParseStatusFromJson" : "KrisGybels 10/9/2015 14:03",
-		"testParseWebElement" : "KrisGybels 10/9/2015 14:03" } }
+		"testJsonWebElement" : "KrisGybels 10/9/2015 14:03"
+	},
+	"class" : { }
+}

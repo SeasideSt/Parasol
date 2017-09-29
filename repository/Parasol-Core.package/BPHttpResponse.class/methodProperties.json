@@ -1,10 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"contents" : "haerle 8/19/2014 14:46",
-		"contents:" : "haerle 8/19/2014 14:46",
-		"headers" : "haerle 8/19/2014 14:46",
 		"headers:" : "haerle 8/19/2014 14:46",
+		"contents:" : "haerle 8/19/2014 14:46",
+		"httpStatus:" : "haerle 8/19/2014 14:46",
+		"headers" : "haerle 8/19/2014 14:46",
 		"httpStatus" : "haerle 8/19/2014 14:46",
-		"httpStatus:" : "haerle 8/19/2014 14:46" } }
+		"contents" : "haerle 8/19/2014 14:46"
+	},
+	"class" : { }
+}
