@@ -22,6 +22,8 @@ smalltalk:
   - Pharo-alpha
   - Pharo64-7.0
   - Pharo-7.0
+  - Pharo64-6.1
+  - Pharo-6.1
   - Pharo64-6.0
   - Pharo-6.0
   - Pharo-5.0
@@ -36,4 +38,5 @@ matrix:
     - smalltalk: Pharo-alpha
     - smalltalk: Pharo64-7.0
     - smalltalk: Pharo-7.0
+    - smalltalk: Pharo64-6.1
     - smalltalk: Pharo64-6.0
