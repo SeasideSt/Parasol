@@ -1,3 +1,3 @@
 facade
 jsonRead: aString 
-	^JSJsonParser parse: aString
+	^JSJsonParser parse: (aString copyWithout: Character null)
