@@ -17,7 +17,7 @@ driver get: 'http://en.wikipedia.org/'.
 driver getKeyboard sendKeys: ('Pharo' , (String with: BPKeys return)).
 
 "Get the text of the article's first paragraph and show it on the transcript."
-Transcript show: ((driver findElementByID: 'mw-content-text') findElementByTagName: 'p') getText.
+Transcript show: (driver findElementByXPath:'//*[@id="mw-content-text"]/div/p[3]') getText
 
 "Tell the browser to quit."
 driver quit.

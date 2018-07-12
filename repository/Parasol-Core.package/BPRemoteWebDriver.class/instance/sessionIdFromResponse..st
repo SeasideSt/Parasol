@@ -1,9 +1,10 @@
 initialize-release
+"protocol: initialize-release"
 sessionIdFromResponse: response
 
 	(#(302 303) includes: response httpStatus)
 		ifTrue: 
-			[(((response headers at: 'location') reversed readStream)
+			[^(((response headers at: 'location') reversed readStream)
 				peekFor: $/;
 				upTo: $/) reversed].
 	response httpStatus = 200
