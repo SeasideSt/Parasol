@@ -10,8 +10,8 @@ baseline: spec
 					repository: 'github://SeasideSt/Seaside/repository'].
 				
 		spec
-			package: 'Parasol-Core';
-			package: 'Parasol-Tests' with: [ spec requires: #('Parasol-Core' 'Seaside3') ];
+			package: 'Parasol-Core' with: [ spec requires: #('Seaside3') ];
+			package: 'Parasol-Tests' with: [ spec requires: #('Parasol-Core') ];
 			package: 'Parasol-Convenience' with: [ spec requires: #('Parasol-Core') ].
 			
 		spec
