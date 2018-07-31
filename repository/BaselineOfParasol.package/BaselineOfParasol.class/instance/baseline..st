@@ -10,8 +10,8 @@ baseline: spec
 					repository: 'github://SeasideSt/Seaside/repository'].
 				
 		spec
-			package: 'Parasol-Core' with: [ spec requires: #('Seaside3') ];
-			package: 'Parasol-Tests' with: [ spec requires: #('Parasol-Core') ];
+			package: 'Parasol-Core';
+			package: 'Parasol-Tests' with: [ spec requires: #('Seaside30' 'Parasol-Core') ];
 			package: 'Parasol-Convenience' with: [ spec requires: #('Parasol-Core') ].
 			
 		spec
@@ -32,7 +32,7 @@ baseline: spec
 					repository: 'http://www.squeaksource.com/MetacelloRepository'].
 		spec
 			package: 'Parasol-Squeak' with: [ spec requires: #('Parasol-Core' 'Seaside3' 'WebClient') ];
-			package: 'Parasol-Core' with: [ spec includes: #('Parasol-Squeak') ].
+			package: 'Parasol-Core' with: [ spec includes: #('Seaside30' 'Parasol-Squeak') ].
 	].
 
 	spec for: #pharo do: [
@@ -45,9 +45,9 @@ baseline: spec
 						versionString: #stable;
 						loads: 'Core';
 						repository: 'http://mc.stfx.eu/ZincHTTPComponents'].
-		spec 
+		spec
 			package: 'Parasol-Pharo' with: [ spec requires: #('Parasol-Core')];
-			package: 'Parasol-Core' with: [ spec requires: #('ZincHTTP'); includes:#('Parasol-Pharo') ].
+			package: 'Parasol-Core' with: [ spec requires: #('Seaside30' 'ZincHTTP'); includes:#('Parasol-Pharo') ].
 	].
 	
 	spec for: #gemstone do: [
