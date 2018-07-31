@@ -27,7 +27,6 @@ smalltalk:
   - Pharo64-6.0
   - Pharo-6.0
   - Pharo-5.0
-  - Pharo-4.0
   - Squeak-5.1
   - GemStone-3.3.3
   - GemStone-3.2.15
@@ -37,3 +36,4 @@ matrix:
     - smalltalk: Pharo64-alpha
     - smalltalk: Pharo-alpha
     - smalltalk: Pharo64-6.0
+    - smalltalk: Pharo-4.0
