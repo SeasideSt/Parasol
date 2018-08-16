@@ -1,4 +1,4 @@
 facade
 jsonWrite: anObject
 
-	^anObject asJson
+	^ STONJSON fromString: aString
