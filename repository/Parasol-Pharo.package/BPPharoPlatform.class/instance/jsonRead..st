@@ -1,3 +1,4 @@
 facade
 jsonRead: aString 
-	^ (Smalltalk at: #JSJsonParser) parse: aString
+
+	^ STONJSON fromString: aString
