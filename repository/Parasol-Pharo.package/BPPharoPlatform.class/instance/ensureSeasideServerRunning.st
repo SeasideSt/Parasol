@@ -1,5 +1,5 @@
 facade
 ensureSeasideServerRunning
 
-	(WAAdmin defaultServerManager adaptors anySatisfy: #isRunning) ifFalse: [
-		ZnZincServerAdaptor startOn: 8080 ].
+	((Smalltalk at: #WAAdmin) defaultServerManager adaptors anySatisfy: #isRunning) ifFalse: [
+		(Smalltalk at: #ZnZincServerAdaptor) startOn: 8080 ].

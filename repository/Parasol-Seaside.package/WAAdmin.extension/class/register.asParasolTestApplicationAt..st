@@ -1,4 +1,4 @@
-*parasol-core
+*parasol-seaside
 register: aComponentClass asParasolTestApplicationAt: aString
 	"Use this to programmatically register a component as an application."
 	| application |

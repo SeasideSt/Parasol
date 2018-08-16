@@ -1,3 +1,3 @@
 facade
 port
-	^WAAdmin defaultServerManager adaptors first port
+	^ (Smalltalk at: #WAAdmin) defaultServerManager adaptors first port

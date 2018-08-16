@@ -1,3 +1,3 @@
 facade
 jsonRead: aString 
-	^JSJsonParser parse: aString
+	^ (Smalltalk at: #JSJsonParser) parse: aString
