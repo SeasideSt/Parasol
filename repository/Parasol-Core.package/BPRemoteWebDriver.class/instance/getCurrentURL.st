@@ -1,4 +1,4 @@
-misc
+navigation
 getCurrentURL
 
 	"
