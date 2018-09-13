@@ -12,6 +12,6 @@ executeScript: scriptString with: arguments
 				httpPost: (self baseSessionURL , 'execute')
 				jsonData: (Dictionary new
 						at: 'script' put: scriptString;
-						at: 'args' put: arguments;
+						at: 'args' put: arguments asScriptArgumentJSON;
 						yourself))
 		onSuccess: [:result | result at: 'value']

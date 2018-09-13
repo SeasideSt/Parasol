@@ -19,7 +19,7 @@
 		"findElementsByCSSSelector:" : "JohanBrichau 5/18/2012 17:00",
 		"getScreenshotAsByteArray" : "KrisGybels 10/9/2015 14:03",
 		"httpPost:jsonData:" : "KrisGybels 10/9/2015 14:03",
-		"executeScript:with:" : "haerle 8/19/2014 14:46",
+		"executeScript:with:" : "KrisGybels 9/13/2018 17:46",
 		"findElementsByXPath:" : "StephanEggermont 10/1/2012 19:40",
 		"goBack" : "JohanBrichau 9/10/2018 17:53",
 		"findElementByLinkText:" : "KrisGybels 4/12/2012 20:19",
