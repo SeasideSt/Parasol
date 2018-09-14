@@ -7,7 +7,11 @@ baseline: spec
 			baseline: 'Seaside3' with: [
 				spec
 					loads: #('Tests' 'Zinc-Seaside');
-					repository: 'github://SeasideSt/Seaside/repository'].
+					repository: 'github://SeasideSt/Seaside/repository'];
+				
+			baseline: 'Ston' with: [
+				spec
+					repository: 'github://svenvc/ston/repository'].
 				
 		spec
 			package: 'Parasol-Core';
@@ -48,7 +52,7 @@ baseline: spec
 						loads: 'Core';
 						repository: 'http://mc.stfx.eu/ZincHTTPComponents'].
 		spec
-			package: 'Parasol-Pharo' with: [ spec requires: #('Parasol-Core')];
+			package: 'Parasol-Pharo' with: [ spec requires: #('Parasol-Core' 'Ston')];
 			package: 'Parasol-Core' with: [ spec requires: #('ZincHTTP'); includes:#('Parasol-Pharo') ].
 	].
 	
