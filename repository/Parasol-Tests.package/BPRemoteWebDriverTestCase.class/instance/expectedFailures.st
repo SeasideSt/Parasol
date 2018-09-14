@@ -1,5 +1,5 @@
 running
 expectedFailures
-	^ (GRPlatform current class == GRGemStonePlatform)
+	^ (GRPlatform current class == (Smalltalk at: #GRGemStonePlatform ifAbsent:[ nil ]))
 		ifTrue:[ #(testGetScreenshotAsByteArray) ]
 		ifFalse:[ #() ]
