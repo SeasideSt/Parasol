@@ -7,15 +7,21 @@ baseline: spec
 			baseline: 'Seaside3' with: [
 				spec
 					loads: #('Tests' 'Zinc-Seaside');
-					repository: 'github://SeasideSt/Seaside/repository'].
+					repository: 'github://SeasideSt/Seaside/repository'];
+				
+			baseline: 'Ston' with: [
+				spec
+					repository: 'github://svenvc/ston/repository'].
 				
 		spec
 			package: 'Parasol-Core';
-			package: 'Parasol-Tests' with: [ spec requires: #('Seaside3' 'Parasol-Core') ];
+			package: 'Parasol-Seaside' with: [ spec requires: #('Seaside3' 'Parasol-Core') ];
+			package: 'Parasol-Tests' with: [ spec requires: #('Parasol-Seaside') ];
 			package: 'Parasol-Convenience' with: [ spec requires: #('Parasol-Core') ].
 			
 		spec
-			group: 'default' with: #('Parasol-Core' 'Parasol-Convenience');
+			group: 'default' with: #('Parasol-Seaside' 'Parasol-Convenience');
+			group: 'core' with: #('Parasol-Core' 'Parasol-Convenience');
 			group: 'tests' with: #('Parasol-Tests' 'default').
 	].
 
@@ -31,7 +37,7 @@ baseline: spec
 					version: #stable;
 					repository: 'http://www.squeaksource.com/MetacelloRepository'].
 		spec
-			package: 'Parasol-Squeak' with: [ spec requires: #('Parasol-Core' 'WebClient') ];
+			package: 'Parasol-Squeak' with: [ spec requires: #('Parasol-Seaside' 'WebClient') ];
 			package: 'Parasol-Core' with: [ spec includes: #('Seaside3' 'Parasol-Squeak') ].
 	].
 
@@ -45,9 +51,10 @@ baseline: spec
 						versionString: #stable;
 						loads: 'Core';
 						repository: 'http://mc.stfx.eu/ZincHTTPComponents'].
+		"update ston for pharo3 and pharo4 to fix a problem when producing strings with single quotes"
 		spec
-			package: 'Parasol-Pharo' with: [ spec requires: #('Parasol-Core')];
-			package: 'Parasol-Core' with: [ spec requires: #('Seaside3' 'ZincHTTP'); includes:#('Parasol-Pharo') ].
+			package: 'Parasol-Pharo' with: [ spec requires: #('Parasol-Core' 'Ston')];
+			package: 'Parasol-Core' with: [ spec requires: #('ZincHTTP'); includes:#('Parasol-Pharo') ].
 	].
 	
 	spec for: #gemstone do: [

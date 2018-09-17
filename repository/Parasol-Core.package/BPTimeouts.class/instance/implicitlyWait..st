@@ -7,5 +7,5 @@ implicitlyWait: duration
 	driver
 		httpPostHandleResponse: driver baseSessionURL , 'timeouts/implicit_wait'
 		jsonData: ((Dictionary new)
-				at: 'ms' put: duration asMilliseconds;
+				at: 'ms' put: duration asMilliSeconds;
 				yourself)
