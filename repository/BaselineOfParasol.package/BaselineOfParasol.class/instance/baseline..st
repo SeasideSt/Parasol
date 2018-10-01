@@ -51,7 +51,6 @@ baseline: spec
 						versionString: #stable;
 						loads: 'Core';
 						repository: 'http://mc.stfx.eu/ZincHTTPComponents'].
-		"update ston for pharo3 and pharo4 to fix a problem when producing strings with single quotes"
 		spec
 			package: 'Parasol-Pharo' with: [ spec requires: #('Parasol-Core' 'Ston')];
 			package: 'Parasol-Core' with: [ spec requires: #('ZincHTTP'); includes:#('Parasol-Pharo') ].
