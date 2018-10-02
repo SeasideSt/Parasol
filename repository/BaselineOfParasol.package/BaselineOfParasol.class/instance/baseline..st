@@ -7,10 +7,18 @@ baseline: spec
 			baseline: 'Ston' with: [
 				spec
 					repository: 'github://svenvc/ston/repository'].
+
+		spec 
+			project: 'Seaside3'
+			with: 
+				[ spec
+					className: 'ConfigurationOfSeaside3';
+					loads: #('Tests' 'Zinc-Seaside');
+					repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main'].
 				
 		spec
 			package: 'Parasol-Core';
-			package: 'Parasol-Seaside' with: [ spec requires: #('Parasol-Core') ];
+			package: 'Parasol-Seaside' with: [ spec requires: #('Seaside3' 'Parasol-Core') ];
 			package: 'Parasol-Tests' with: [ spec requires: #('Parasol-Seaside') ];
 			package: 'Parasol-Convenience' with: [ spec requires: #('Parasol-Core') ].
 			
