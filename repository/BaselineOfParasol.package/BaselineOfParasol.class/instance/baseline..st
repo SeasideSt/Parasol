@@ -15,7 +15,7 @@ baseline: spec
 					className: 'ConfigurationOfSeaside3';
 					versionString: '3.0.19';
 					file: 'ConfigurationOfSeaside3-JohanBrichau.333';
-					loads: #('Tests' 'Zinc-Seaside');
+					loads: #('Tests');
 					repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main'].
 				
 		spec
