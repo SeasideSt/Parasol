@@ -2,7 +2,7 @@
 	"instance" : {
 		"findElementsByPartialLinkText:" : "AndyKellens 2/13/2013 15:55",
 		"findElementByCSSSelector:" : "KrisGybels 4/12/2012 19:29",
-		"initWithCapabilities:" : "KrisGybels 10/9/2018 15:25",
+		"initWithCapabilities:" : "KrisGybels 10/10/2018 10:37",
 		"cookieNamed:" : "JohanBrichau 9/14/2018 11:33",
 		"getKeyboard" : "KrisGybels 6/29/2012 15:19",
 		"get:" : "haerle 8/19/2014 14:46",
