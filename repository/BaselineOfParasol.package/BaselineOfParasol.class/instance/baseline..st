@@ -40,16 +40,13 @@ baseline: spec
 	spec for: #pharo do: [
 		"Sets the Zinc prerequisite for Pharo"
 			spec 
-				project: 'ZincHTTP'
-				with: 
-					[ spec
-						className: 'ConfigurationOfZincHTTPComponents';
-						versionString: #stable;
-						loads: 'Core';
-						repository: 'http://mc.stfx.eu/ZincHTTPComponents'].
+				baseline: 'ZincHTTPComponents' with: [ 
+					spec 
+						loads: #('Core');
+						repository: 'github://zweidenker/zinc/repository'].
 		spec
 			package: 'Parasol-Pharo' with: [ spec requires: #('Parasol-Core')];
-			package: 'Parasol-Core' with: [ spec requires: #('ZincHTTP'); includes:#('Parasol-Pharo') ].
+			package: 'Parasol-Core' with: [ spec requires: #('ZincHTTPComponents'); includes:#('Parasol-Pharo') ].
 	].
 	
 	spec for: #gemstone do: [
