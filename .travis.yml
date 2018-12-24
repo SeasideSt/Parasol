@@ -32,6 +32,6 @@ smalltalk:
   - GemStone-3.1.0.6
 matrix:
   allow_failures:
-    - Smalltalk: Squeak-5.1
+    - smalltalk: Squeak-5.1
     - smalltalk: Pharo64-alpha
     - smalltalk: Pharo-alpha
