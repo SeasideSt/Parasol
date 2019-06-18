@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BPException",
+	"category" : "Parasol-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPJavascriptException",
+	"type" : "normal"
+}
