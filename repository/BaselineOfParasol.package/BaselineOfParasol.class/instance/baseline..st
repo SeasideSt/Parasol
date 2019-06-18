@@ -33,16 +33,10 @@ baseline: spec
 	spec for: #squeak do: [
 		spec
 			project: 'Seaside3' 
-			with: [ spec loads: #('Tests' 'WebClient-Seaside')].
-				
-		spec 
-			project: 'WebClient' with: [
-				spec
-					className: 'ConfigurationOfWebClient';
-					version: #stable;
-					repository: 'http://www.squeaksource.com/MetacelloRepository'].
+			with: [ spec loads: #('Tests' 'WebClient')].
+			
 		spec
-			package: 'Parasol-Squeak' with: [ spec requires: #('Parasol-Seaside' 'WebClient') ];
+			package: 'Parasol-Squeak' with: [ spec requires: #('Parasol-Seaside') ];
 			package: 'Parasol-Core' with: [ spec includes: #('Seaside3' 'Parasol-Squeak') ].
 	].
 
