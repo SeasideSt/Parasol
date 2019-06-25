@@ -8,6 +8,6 @@ initWithCapabilities: desiredCapabilities
 				jsonData: ((Dictionary new)
 						at: 'desiredCapabilities' put: desiredCapabilities asDictionary;
 						yourself)
-				timeout: 30.
+				timeout: 120.
 	sessionID := self sessionIdFromResponse: response.
 	capabilities := BPCapabilities withDictionary: ((BPSmalltalkPlatform current jsonRead: response contents) at: 'value').

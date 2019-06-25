@@ -9,5 +9,7 @@ exceptions
 			at: 11 put: BPElementNotVisibleException;
 			at: 12 put: BPInvalidElementStateException;
 			at: 13 put: BPUnknownServerException;
+			at: 27 put: BPNoSuchAlertException;
 			at: 32 put: BPInvalidSelectorException;
+			at: 105 put: BPNoSuchCookieException;
 			yourself ]
