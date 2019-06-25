@@ -7,7 +7,11 @@ baseline: spec
 			baseline: 'Seaside3' with: [
 				spec
 					loads: #('Tests' 'Zinc-Seaside');
-					repository: 'github://SeasideSt/Seaside/repository'].
+					repository: 'github://SeasideSt/Seaside/repository'];
+				
+			baseline: 'Ston' with: [
+				spec
+					repository: 'github://svenvc/ston/repository'].
 				
 		spec
 			package: 'Parasol-Core';
@@ -24,16 +28,10 @@ baseline: spec
 	spec for: #squeak do: [
 		spec
 			project: 'Seaside3' 
-			with: [ spec loads: #('Tests' 'WebClient-Seaside')].
-				
-		spec 
-			project: 'WebClient' with: [
-				spec
-					className: 'ConfigurationOfWebClient';
-					version: #stable;
-					repository: 'http://www.squeaksource.com/MetacelloRepository'].
+			with: [ spec loads: #('Tests' 'WebClient')].
+			
 		spec
-			package: 'Parasol-Squeak' with: [ spec requires: #('Parasol-Seaside' 'WebClient') ];
+			package: 'Parasol-Squeak' with: [ spec requires: #('Parasol-Seaside') ];
 			package: 'Parasol-Core' with: [ spec includes: #('Seaside3' 'Parasol-Squeak') ].
 	].
 
@@ -45,7 +43,7 @@ baseline: spec
 						loads: #('Core');
 						repository: 'github://zweidenker/zinc/repository'].
 		spec
-			package: 'Parasol-Pharo' with: [ spec requires: #('Parasol-Core')];
+			package: 'Parasol-Pharo' with: [ spec requires: #('Parasol-Core' 'Ston')];
 			package: 'Parasol-Core' with: [ spec requires: #('ZincHTTPComponents'); includes:#('Parasol-Pharo') ].
 	].
 	
