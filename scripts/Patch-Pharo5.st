@@ -1,0 +1,1 @@
+(Smalltalk version = 'Pharo5.0') ifTrue: [	WAResponse compile: 'location: aUrlOrString 		self 			headerAt: ''Location''			put: aUrlOrString greaseString'.	WACookie compile: 'oldNetscapeString		^ self rfc6265String'.].
