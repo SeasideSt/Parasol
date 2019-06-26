@@ -9,7 +9,7 @@
 		"testTakeScreenshot" : "haerle 8/19/2014 14:55",
 		"testGoBackAndForward" : "JohanBrichau 9/10/2018 17:52",
 		"testFindElementsByClassName" : "JohanBrichau 5/18/2012 17:11",
-		"expectedFailures" : "KrisGybels 6/26/2019 20:34",
+		"expectedFailures" : "KrisGybels 6/26/2019 20:49",
 		"testCookies" : "JohanBrichau 9/14/2018 16:16",
 		"testFindElementByCSSSelector" : "KrisGybels 7/4/2012 10:00",
 		"testFindElementsByXPath" : "KrisGybels 10/2/2012 11:48",
