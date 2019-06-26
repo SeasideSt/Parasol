@@ -26,6 +26,8 @@ smalltalk:
   - Pharo-5.0
   - Squeak64-5.2
   - Squeak-5.2
+  - GemStone-3.5.0
+  - GemStone-3.4.2
   - GemStone-3.3.3
   - GemStone-3.2.15
   - GemStone-3.1.0.6
