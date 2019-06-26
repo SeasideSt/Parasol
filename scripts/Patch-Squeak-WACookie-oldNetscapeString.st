@@ -1,0 +1,1 @@
+'From Squeak5.2 of 13 December 2018 [latest update: #18225] on 26 June 2019 at 11:28:13 pm'!!WACookie methodsFor: 'writing' stamp: 'Kris 6/26/2019 23:28'!oldNetscapeString	^ self rfc6265String! !

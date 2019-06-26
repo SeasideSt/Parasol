@@ -6,5 +6,11 @@ SmalltalkCISpec {
       #load : [ 'tests' ],
       #platforms : [ #pharo, #squeak, #gemstone ]
     }
+  ],
+  #postLoading : [
+    SCICustomScript {
+      #path : 'scripts/Patch-Squeak-WACookie-oldNetscapeString.st',
+      #platforms : [ #squeak ]
+    }
   ]
 }
