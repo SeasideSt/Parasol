@@ -1,5 +1,6 @@
 running
 expectedFailures
-	^ (GRPlatform current class == (Smalltalk at: #GRGemStonePlatform ifAbsent:[ nil ]))
-		ifTrue:[ #(testGetScreenshotAsByteArray) ]
-		ifFalse:[ #() ]
+
+	(BPSmalltalkPlatform current class name = #BPGemStonePlatform) ifTrue: [ ^ super expectedFailures , #(testGetScreenshotAsByteArray) ].
+	(BPSmalltalkPlatform current class name = #BPSqueakPlatform) ifFalse: [ ^ super expectedFailures , #(testCookies) ].
+	^ super expectedFailures
