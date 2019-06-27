@@ -16,5 +16,11 @@ SmalltalkCISpec {
       #path : 'scripts/Patch-Pharo5.st',
       #platforms : [ #pharo ]
     }
+  ],
+  #preTesting : [
+    SCICustomScript {
+      #path : 'scripts/Delay-6-seconds.st',
+      #platforms : [ #squeak ]
+    }
   ]
 }
