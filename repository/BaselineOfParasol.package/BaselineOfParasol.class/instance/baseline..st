@@ -41,7 +41,7 @@ baseline: spec
 				baseline: 'ZincHTTPComponents' with: [ 
 					spec 
 						loads: #('Core');
-						repository: 'github://zweidenker/zinc/repository'].
+						repository: 'github://svenvc/zinc/repository'].
 		spec
 			package: 'Parasol-Pharo' with: [ spec requires: #('Parasol-Core' 'Ston')];
 			package: 'Parasol-Core' with: [ spec requires: #('ZincHTTPComponents'); includes:#('Parasol-Pharo') ].
