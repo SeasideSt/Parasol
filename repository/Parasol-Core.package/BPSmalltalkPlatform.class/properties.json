@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "BPObject",
 	"category" : "Parasol-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classinstvars" : [
+		 ],
 	"classvars" : [
-		"Current"
-	],
+		"Current" ],
+	"commentStamp" : "",
 	"instvars" : [
-		"port"
-	],
+		"port" ],
 	"name" : "BPSmalltalkPlatform",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "BPObject",
+	"type" : "normal" }

@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "WAComponent",
 	"category" : "Parasol-Tests",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"inputFieldValue",
-		"receivedFile"
-	],
+		"receivedFile" ],
 	"name" : "BPTestComponent",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

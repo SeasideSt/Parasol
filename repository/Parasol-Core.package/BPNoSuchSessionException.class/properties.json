@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "BPException",
 	"category" : "Parasol-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "BPNoSuchSessionException",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "BPException",
+	"type" : "normal" }
