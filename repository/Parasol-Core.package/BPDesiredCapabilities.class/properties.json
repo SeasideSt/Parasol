@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "BPCapabilities",
 	"category" : "Parasol-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "BPDesiredCapabilities",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "BPCapabilities",
+	"type" : "normal" }

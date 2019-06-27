@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "BPObject",
 	"category" : "Parasol-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"dict"
-	],
+		"dict" ],
 	"name" : "BPCapabilities",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "BPObject",
+	"type" : "normal" }

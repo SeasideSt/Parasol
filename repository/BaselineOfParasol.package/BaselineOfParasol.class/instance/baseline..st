@@ -28,8 +28,8 @@ baseline: spec
 	spec for: #squeak do: [
 		spec
 			project: 'Seaside3' 
-			with: [ spec loads: #('Tests' 'WebClient')].
-			
+			with: [ spec loads: #('Tests' 'WebClient') ].
+				
 		spec
 			package: 'Parasol-Squeak' with: [ spec requires: #('Parasol-Seaside') ];
 			package: 'Parasol-Core' with: [ spec includes: #('Seaside3' 'Parasol-Squeak') ].

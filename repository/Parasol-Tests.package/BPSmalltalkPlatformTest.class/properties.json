@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "TestCase",
 	"category" : "Parasol-Tests",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "BPSmalltalkPlatformTest",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

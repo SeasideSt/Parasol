@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "BPParasolSelfTestCase",
 	"category" : "Parasol-Tests",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "BPWebElementTestCase",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "BPParasolSelfTestCase",
+	"type" : "normal" }

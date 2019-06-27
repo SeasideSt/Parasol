@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "BPObject",
 	"category" : "Parasol-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"realClass",
-		"instantiationNotificationBlock"
-	],
+		"instantiationNotificationBlock" ],
 	"name" : "BPClassInstantiationNotificationWrapper",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "BPObject",
+	"type" : "normal" }

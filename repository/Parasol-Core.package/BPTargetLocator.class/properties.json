@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "BPObject",
 	"category" : "Parasol-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"driver"
-	],
+		"driver" ],
 	"name" : "BPTargetLocator",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "BPObject",
+	"type" : "normal" }

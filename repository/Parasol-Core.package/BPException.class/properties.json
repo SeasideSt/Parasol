@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "haerle 8/19/2014 15:07",
-	"super" : "Error",
 	"category" : "Parasol-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "haerle 8/19/2014 15:07",
 	"instvars" : [
-		"errorCode"
-	],
+		"errorCode" ],
 	"name" : "BPException",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "BPSmalltalkPlatform",
 	"category" : "Parasol-Pharo",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "BPPharoPlatform",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "BPSmalltalkPlatform",
+	"type" : "normal" }

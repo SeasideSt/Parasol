@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "PackageManifest",
 	"category" : "Parasol-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
 	"name" : "ManifestParasolCore",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }
