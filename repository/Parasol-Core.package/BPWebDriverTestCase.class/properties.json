@@ -1,15 +1,16 @@
 {
-	"category" : "Parasol-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"DefaultDesiredCapabilities" ],
 	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Parasol-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"DefaultDesiredCapabilities"
+	],
 	"instvars" : [
 		"driver",
-		"screenshotCounter" ],
+		"screenshotCounter"
+	],
 	"name" : "BPWebDriverTestCase",
-	"pools" : [
-		 ],
-	"super" : "TestCase",
-	"type" : "normal" }
+	"type" : "normal"
+}

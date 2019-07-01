@@ -1,14 +1,11 @@
 {
-	"category" : "Parasol-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "BPMiscTestCase",
-	"pools" : [
-		 ],
 	"super" : "BPParasolSelfTestCase",
-	"type" : "normal" }
+	"category" : "Parasol-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPMiscTestCase",
+	"type" : "normal"
+}

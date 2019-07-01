@@ -1,15 +1,14 @@
 {
-	"category" : "Parasol-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "BPObject",
+	"category" : "Parasol-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"driver",
-		"handle" ],
+		"handle"
+	],
 	"name" : "BPWindow",
-	"pools" : [
-		 ],
-	"super" : "BPObject",
-	"type" : "normal" }
+	"type" : "normal"
+}
