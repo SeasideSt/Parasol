@@ -1,5 +1,2 @@
-*.package/monticello.meta/version		binary merge=mcVersion
-*.package/*.class/methodProperties.json		binary merge=mcMethodProperties
 *.package/*.class/properties.json		binary merge=mcProperties
-*.package/*.extension/methodProperties.json 	binary merge=mcMethodProperties
 *.package/*.extension/properties.json 		binary merge=mcProperties
