@@ -1,14 +1,11 @@
 {
-	"category" : "Parasol-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "BPUnsupportedCommandException",
-	"pools" : [
-		 ],
 	"super" : "BPException",
-	"type" : "normal" }
+	"category" : "Parasol-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPUnsupportedCommandException",
+	"type" : "normal"
+}
