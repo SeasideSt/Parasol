@@ -1,14 +1,11 @@
 {
-	"category" : "Parasol-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "BPParasolSelfTestCase",
-	"pools" : [
-		 ],
 	"super" : "BPSeasideWebDriverTestCase",
-	"type" : "normal" }
+	"category" : "Parasol-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPParasolSelfTestCase",
+	"type" : "normal"
+}

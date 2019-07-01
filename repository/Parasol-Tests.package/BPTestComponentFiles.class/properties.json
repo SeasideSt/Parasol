@@ -1,14 +1,11 @@
 {
-	"category" : "Parasol-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "BPTestComponentFiles",
-	"pools" : [
-		 ],
 	"super" : "WAFileLibrary",
-	"type" : "normal" }
+	"category" : "Parasol-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPTestComponentFiles",
+	"type" : "normal"
+}
