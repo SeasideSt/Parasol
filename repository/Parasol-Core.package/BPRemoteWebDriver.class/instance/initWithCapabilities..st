@@ -6,8 +6,9 @@ initWithCapabilities: desiredCapabilities
 	response := self
 				httpPost: self baseDriverURL , 'session'
 				jsonData: ((Dictionary new)
-						at: 'desiredCapabilities' put: desiredCapabilities asDictionary;
+						at: 'capabilities' put: (Dictionary new at: 'alwaysMatch' put:
+							(Dictionary new at: 'browserName' put: 'chrome'; yourself); yourself);
 						yourself)
 				timeout: 120.
 	sessionID := self sessionIdFromResponse: response.
-	capabilities := BPCapabilities withDictionary: ((BPSmalltalkPlatform current jsonRead: response contents) at: 'value').
+	capabilities := BPCapabilities withDictionary: (((BPSmalltalkPlatform current jsonRead: response contents) at: 'value') at: 'capabilities').

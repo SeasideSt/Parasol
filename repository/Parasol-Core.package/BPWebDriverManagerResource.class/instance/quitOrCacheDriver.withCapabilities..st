@@ -1,6 +1,9 @@
 accessing
 quitOrCacheDriver: driver withCapabilities: capabilities
 
+	true ifTrue: [ self quitDriver: driver. ^ self ].
+	"Ignored for now:"
+
 	drivers at: capabilities ifPresent: [ :cachedDriver | self quitDriver: driver. ^ self ].
 	[
 		| windowHandles |
