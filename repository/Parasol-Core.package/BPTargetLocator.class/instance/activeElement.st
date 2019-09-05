@@ -10,4 +10,4 @@ activeElement
 			httpPost: (driver baseSessionURL , 'element/active')
 			jsonData: (Dictionary new))
 		onSuccess: [ :result |
-			BPWebElement driver: driver elementID: ((result at: 'value') at: 'ELEMENT') ]
+			BPWebElement driver: driver elementID: ((result at: 'value') at: BPWebElement privateWebElementIdentifier) ]

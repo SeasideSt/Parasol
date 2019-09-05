@@ -6,12 +6,10 @@ executeScript: scriptString with: arguments
 
 	self
 		flag: 'Check whether this implementation matches the description of the original Java method'.
-	self
-		flag: 'One point definitely missing is that this does not yet handle converting an {ELEMENT: ....} thingy back to a WebElement.'.
 	^self handleResponse: (self
 				httpPost: (self baseSessionURL , 'execute')
 				jsonData: (Dictionary new
 						at: 'script' put: scriptString;
 						at: 'args' put: arguments asScriptArgumentJSON;
 						yourself))
-		onSuccess: [:result | result at: 'value']
+		onSuccess: [:result | self privateConvertScriptReturnValue: (result at: 'value') ]

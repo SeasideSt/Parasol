@@ -9,7 +9,8 @@ Here’s a straightforward annotated example. This example uses Parasol to autom
 
 ```Smalltalk
 "Open a web browser on the English-language Wikipedia home page."
-driver := BPRemoteWebDriver withCapabilities: BPDesiredCapabilities chrome.
+driver := BPRemoteWebDriver withCapabilities: (BPDesiredCapabilities chrome
+	setCapability: 'chromeOptions' to: (Dictionary new at: 'w3c' put: false; yourself)).
 driver get: 'http://en.wikipedia.org/'.
 
 "Click on the search box and type in 'Pharo' followed by a press of the Return key."
@@ -17,7 +18,7 @@ driver get: 'http://en.wikipedia.org/'.
 driver getKeyboard sendKeys: ('Pharo' , (String with: BPKeys return)).
 
 "Get the text of the article's first paragraph and show it on the transcript."
-Transcript show: ((driver findElementByID: 'mw-content-text') findElementByTagName: 'p') getText.
+Transcript show: ((driver findElementByID: 'mw-content-text') findElementByCSSSelector: 'p:not(.mw-empty-elt)') getText.
 
 "Tell the browser to quit."
 driver quit.
@@ -40,12 +41,12 @@ To try Beach Parasol, you'll need to get a few things:
 - The [Selenium standalone server](http://docs.seleniumhq.org/download/) JAR file
 - The [Chromedriver](https://sites.google.com/a/chromium.org/chromedriver/) for your operating system
 
-At the time of writing this README, we used Pharo version 5.0 #50766, Chrome version 55.0.2883.95, Selenium server v3.0.1 (“selenium-server-standalone-3.0.1.jar”) and Chromedriver v2.25. If you find things are not working with more recent versions, please do [file an issue](https://github.com/SeasideSt/Parasol/issues).
+At the time of writing this README, we used Pharo version 7.0.4 (build: 168, commit: ccd1f64), Chrome version 76.0.3809.132, Selenium server v3.141.59 (“selenium-server-standalone-3.141.59.jar”) and Chromedriver v76.0.3809.126. If you find things are not working with more recent versions, please do [file an issue](https://github.com/SeasideSt/Parasol/issues).
 
 You should extract the Chromedriver's ZIP file into the directory where you put the Selenium server JAR file. To run the Selenium server, execute the following on the command line:
 
 ```bash
-java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.0.1.jar
+java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.141.59.jar
 ```
 
 To load the Parasol package into the Pharo image:

@@ -10,9 +10,9 @@
 	],
 	"instvars" : [
 		"capabilities",
+		"oldExceptions",
 		"exceptions",
-		"sessionID",
-		"oldExceptions"
+		"sessionID"
 	],
 	"name" : "BPRemoteWebDriver",
 	"type" : "normal"
