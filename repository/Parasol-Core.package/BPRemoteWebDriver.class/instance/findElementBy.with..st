@@ -9,4 +9,4 @@ findElementBy: selectorString with: valueString
 						yourself))
 		onSuccess: 
 			[:result |
-			BPWebElement driver: self elementID: ((result at: 'value') at: 'ELEMENT')]
+			BPWebElement driver: self elementID: ((result at: 'value') at: BPWebElement privateWebElementIdentifier)]

@@ -2,5 +2,5 @@ json
 asScriptArgumentJSON
 
 	^ Dictionary new
-		at: 'ELEMENT' put: elementID;
+		at: BPWebElement privateWebElementIdentifier put: elementID;
 		yourself
