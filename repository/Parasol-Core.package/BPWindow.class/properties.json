@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"driver",
-		"handle"
+		"driver"
 	],
 	"name" : "BPWindow",
 	"type" : "normal"
