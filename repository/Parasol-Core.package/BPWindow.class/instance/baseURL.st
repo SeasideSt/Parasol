@@ -1,4 +1,4 @@
 private
 baseURL
 
-	^driver baseSessionURL , 'window/' , handle, '/'
+	^ driver baseSessionURL , 'window/current/'
