@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "BPException",
+	"super" : "BPElementNotInteractableException",
 	"category" : "Parasol-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

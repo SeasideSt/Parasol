@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "BPException",
+	"super" : "BPNotFoundException",
 	"category" : "Parasol-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
