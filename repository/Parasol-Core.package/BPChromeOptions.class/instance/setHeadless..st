@@ -1,5 +1,5 @@
 accessing
 setHeadless: boolean
 
-	arguments remove: '--headless'.
+	arguments remove: '--headless' ifAbsent: [ ].
 	boolean ifTrue: [ arguments addAll: #('--headless' '--disable-gpu') ].
