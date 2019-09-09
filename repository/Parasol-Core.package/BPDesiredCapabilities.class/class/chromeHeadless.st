@@ -1,12 +1,6 @@
 predefined
 chromeHeadless
 
-	^ self new
-		setCapability: 'browserName' to: 'chrome';
-		setCapability: 'chromeOptions'
-			to:
-				(Dictionary new
-					at: 'args' put: {'headless' . 'no-sandbox' . 'disable-gpu'};
-					yourself);
-		yourself
-	
+	"This method is deprecated and should not be used."
+
+	^ BPChromeOptions new setHeadless: true; addArguments: #('no-sandbox'); yourself
