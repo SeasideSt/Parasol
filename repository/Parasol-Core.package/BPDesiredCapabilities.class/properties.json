@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "BPCapabilities",
+	"super" : "BPMutableCapabilities",
 	"category" : "Parasol-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

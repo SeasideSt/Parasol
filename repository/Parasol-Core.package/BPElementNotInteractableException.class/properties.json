@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "BPException",
+	"super" : "BPInvalidElementStateException",
 	"category" : "Parasol-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

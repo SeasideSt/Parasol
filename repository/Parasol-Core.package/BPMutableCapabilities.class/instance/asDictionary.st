@@ -1,0 +1,4 @@
+accessing
+asDictionary
+
+	^ dict copy

@@ -4,9 +4,7 @@
 	"category" : "Parasol-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"DefaultDesiredCapabilities"
-	],
+	"classvars" : [ ],
 	"instvars" : [
 		"driver",
 		"screenshotCounter"

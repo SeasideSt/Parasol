@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMutableCapabilities",
+	"category" : "Parasol-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"arguments"
+	],
+	"name" : "BPChromeOptions",
+	"type" : "normal"
+}
