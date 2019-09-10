@@ -1,0 +1,4 @@
+private
+privateArguments
+
+	self subclassResponsibility

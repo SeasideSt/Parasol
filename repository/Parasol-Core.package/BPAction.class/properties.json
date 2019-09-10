@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"driver",
-		"arguments"
+		"driver"
 	],
 	"name" : "BPAction",
 	"type" : "normal"
