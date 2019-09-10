@@ -1,0 +1,4 @@
+private
+privateSessionCreationJSON
+
+	self subclassResponsibility

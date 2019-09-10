@@ -1,4 +1,4 @@
 running
 desiredDriverBrowserCapabilities
 
-	^ BPDesiredCapabilities chrome
+	^ BPChromeOptions new
