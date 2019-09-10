@@ -1,4 +1,4 @@
 accessing
 asDictionary
 
-	^ dict asDictionary
+	^ dict copy
