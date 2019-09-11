@@ -6,4 +6,4 @@ perform
 
 	^driver httpPostHandleResponse: (driver baseSessionURL
 				, self actionPathSegment)
-		jsonData: arguments
+		jsonData: self privateArguments
