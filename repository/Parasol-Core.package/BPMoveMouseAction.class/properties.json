@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"webElement",
+		"offset"
+	],
 	"name" : "BPMoveMouseAction",
 	"type" : "normal"
 }

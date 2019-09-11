@@ -1,0 +1,4 @@
+private
+privateArguments
+
+	^ Dictionary new
