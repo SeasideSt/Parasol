@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BPAction",
+	"category" : "Parasol-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"webElement",
+		"offset"
+	],
+	"name" : "BPMoveToOffsetAction",
+	"type" : "normal"
+}
