@@ -1,4 +1,0 @@
-private
-privateArguments
-
-	self subclassResponsibility

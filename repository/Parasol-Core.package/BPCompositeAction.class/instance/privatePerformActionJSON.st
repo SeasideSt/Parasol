@@ -1,4 +1,4 @@
 private
-privateArguments
+privatePerformActionJSON
 
 	self shouldNotImplement
