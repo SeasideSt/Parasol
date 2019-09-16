@@ -1,17 +1,16 @@
 running
-testSendKeys
+testGetKeyboardSendKeys
 
 	| inputElement submitButton submittedValue |
+
 	self assert: self componentUnderTest inputFieldValue isNil.
 	inputElement := driver findElementByID: 'inputField'.
-	inputElement sendKeys: 'foo' , (String with: BPKeys shift) , 'bar'.
-	inputElement sendKeys: 'baz'.
+	inputElement click.
+	driver getKeyboard sendKeys: 'foo' , (String with: BPKeys shift) , 'bar'.
+	driver getKeyboard sendKeys: 'baz' , (String with: BPKeys shift) , 'qux' , (String with: BPKeys shift).
+	driver getKeyboard sendKeys: 'quux' , (String with: BPKeys null) , 'quuz'.
 	submitButton := driver findElementByID: 'submitButton'.
 	submitButton click.
 	submittedValue := self waitUntil: [ self componentUnderTest inputFieldValue ] is: [ :value | value notNil ]
 		checkEvery: (Duration milliseconds: 100) timeoutAfter: (Duration seconds: 5) with: [ nil ].
-	self assert: submittedValue equals: 'fooBARbaz'.
-
-	driver get: self baseURL asString.
-	self assert: self componentUnderTest inputFieldValue isNil.
-	self should: [ inputElement sendKeys: 'XYZ' ] raise: BPStaleElementReferenceException.
+	self assert: submittedValue equals: 'fooBARBAZquxQUUXquuz'.
