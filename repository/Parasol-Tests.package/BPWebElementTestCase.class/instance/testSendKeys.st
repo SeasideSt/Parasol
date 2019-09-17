@@ -9,11 +9,12 @@ testSendKeys
 		(String with: BPKeys shift) , 'baz' ,
 		(String with: BPKeys shift) , 'qux'.
 	inputElement sendKeys: 'quux'.
+	inputElement sendKeys: 'QU' , (String with: BPKeys shift) , 'UZna' , (String with: BPKeys shift) , 'rf'.
 	submitButton := driver findElementByID: 'submitButton'.
 	submitButton click.
 	submittedValue := self waitUntil: [ self componentUnderTest inputFieldValue ] is: [ :value | value notNil ]
 		checkEvery: (Duration milliseconds: 100) timeoutAfter: (Duration seconds: 5) with: [ nil ].
-	self assert: submittedValue equals: 'fooBARbazQUXquux'.
+	self assert: submittedValue equals: 'fooBARbazQUXquuxQUUZNArf'.
 
 	driver get: self baseURL asString.
 	self assert: self componentUnderTest inputFieldValue isNil.
