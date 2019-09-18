@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "BPObject",
+	"category" : "Parasol-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"value",
+		"domain",
+		"path",
+		"expiry",
+		"isSecure",
+		"isHTTPOnly"
+	],
+	"name" : "BPCookie",
+	"type" : "normal"
+}

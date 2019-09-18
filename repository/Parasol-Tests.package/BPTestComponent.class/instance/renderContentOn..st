@@ -36,17 +36,7 @@ renderContentOn: html
 		html fileUpload callback: [ :value | receivedFile := value ].
 		html submitButton id: 'sendFile'; with: 'Send File'
 	].
-	
-	html heading
-		level: 3;
-		with: 'Cookies'.
-	html anchor
-		callback: [ self requestContext response addCookie: self parasolTestCookie ];
-		with: 'Set test cookie'.
-	html anchor
-		callback: [ self requestContext response deleteCookie: self parasolTestCookie ];
-		with: 'Delete test cookie'.
-		
+			
 	html heading
 		level: 3;
 		with: 'Alerts'.

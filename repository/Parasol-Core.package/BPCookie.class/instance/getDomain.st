@@ -1,0 +1,4 @@
+acccessing
+getDomain
+
+	^ domain
