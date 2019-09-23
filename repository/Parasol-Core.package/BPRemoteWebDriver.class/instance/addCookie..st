@@ -1,6 +1,9 @@
 cookies
 addCookie: aDictionary
-	"https://www.w3.org/TR/webdriver1/#add-cookie"
+
+	BPSmalltalkPlatform current deprecated:
+		'BPRemoteWebDriver>>#addCookie: is deprecated, use BPOptions>>#addCookie: instead (e.g.: [ driver manage addCookie: (BPCookie withName: ''name'' value: ''value'') ])'.
+	
 	^ self
 		httpPost: self baseSessionURL , 'cookie'
 		jsonData:

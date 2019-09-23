@@ -1,4 +1,7 @@
 cookies
 deleteCookieNamed: aString
-	"https://www.w3.org/TR/webdriver1/#delete-cookie"
+
+	BPSmalltalkPlatform current deprecated:
+		'BPRemoteWebDriver>>#deleteCookieNamed: is deprecated, use BPOptions>>#deleteCookieNamed: instead'.
+
 	^ self httpDelete: (self baseSessionURL , 'cookie/', aString)
