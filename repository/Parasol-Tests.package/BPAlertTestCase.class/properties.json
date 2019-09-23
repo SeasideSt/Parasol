@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BPParasolSelfTestCase",
+	"category" : "Parasol-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPAlertTestCase",
+	"type" : "normal"
+}
