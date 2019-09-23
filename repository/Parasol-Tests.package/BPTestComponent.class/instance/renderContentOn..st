@@ -36,11 +36,3 @@ renderContentOn: html
 		html fileUpload callback: [ :value | receivedFile := value ].
 		html submitButton id: 'sendFile'; with: 'Send File'
 	].
-			
-	html heading
-		level: 3;
-		with: 'Alerts'.
-		
-	html anchor 
-		url: 'javascript:alert(''How how how'')';
-		with: 'Alert!'
