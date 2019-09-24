@@ -1,5 +1,5 @@
 actions
 accept
 
-	driver httpPostHandleResponse: driver baseSessionURL , 'accept_alert' 
+	driver httpPostHandleResponse: driver baseSessionURL , 'alert/accept' 
 		jsonData: Dictionary new.

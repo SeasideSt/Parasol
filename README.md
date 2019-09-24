@@ -9,8 +9,7 @@ Here’s a straightforward annotated example. This example uses Parasol to autom
 
 ```Smalltalk
 "Open a web browser on the English-language Wikipedia home page."
-driver := BPRemoteWebDriver withCapabilities: (BPDesiredCapabilities chrome
-	setCapability: 'chromeOptions' to: (Dictionary new at: 'w3c' put: false; yourself)).
+driver := BPRemoteWebDriver withCapabilities: BPDesiredCapabilities chrome.
 driver get: 'http://en.wikipedia.org/'.
 
 "Click on the search box and type in 'Pharo' followed by a press of the Return key."

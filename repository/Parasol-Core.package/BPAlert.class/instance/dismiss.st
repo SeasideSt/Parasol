@@ -1,5 +1,5 @@
 actions
 dismiss
 
-	driver httpPostHandleResponse: driver baseSessionURL , 'dismiss_alert' 
+	driver httpPostHandleResponse: driver baseSessionURL , 'alert/dismiss' 
 		jsonData: Dictionary new.

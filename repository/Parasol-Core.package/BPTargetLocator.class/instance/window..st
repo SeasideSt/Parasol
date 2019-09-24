@@ -6,5 +6,5 @@ window: windowHandle
 
 	driver httpPostHandleResponse: driver baseSessionURL , 'window'
 		jsonData: ((Dictionary new)
-				at: 'name' put: windowHandle;
+				at: 'handle' put: windowHandle;
 				yourself)

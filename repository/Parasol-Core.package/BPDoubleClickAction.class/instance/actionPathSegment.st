@@ -1,3 +1,0 @@
-perform
-actionPathSegment 
-	^ 'doubleclick'

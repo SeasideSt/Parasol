@@ -8,4 +8,4 @@ initWithCapabilities: desiredCapabilities
 				jsonData: desiredCapabilities privateSessionCreationJSON
 				timeout: 120.
 	sessionID := self sessionIdFromResponse: response.
-	capabilities := BPCapabilities withDictionary: ((BPSmalltalkPlatform current jsonRead: response contents) at: 'value').
+	capabilities := BPCapabilities withDictionary: (((BPSmalltalkPlatform current jsonRead: response contents) at: 'value') at: 'capabilities').

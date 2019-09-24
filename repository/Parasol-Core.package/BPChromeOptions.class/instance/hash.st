@@ -1,0 +1,4 @@
+comparing
+hash
+
+	^ dict hash

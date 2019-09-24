@@ -1,3 +1,0 @@
-misc
-actionPathSegment 
-	self subclassResponsibility 

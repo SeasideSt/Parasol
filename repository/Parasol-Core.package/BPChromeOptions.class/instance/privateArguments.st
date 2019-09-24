@@ -1,4 +1,4 @@
 private
 privateArguments
 
-	self shouldNotImplement
+	^ arguments
