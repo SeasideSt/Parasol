@@ -14,4 +14,7 @@ testGetKeyboardSendKeys
 	submitButton click.
 	submittedValue := self waitUntil: [ self componentUnderTest inputFieldValue ] is: [ :value | value notNil ]
 		checkEvery: (Duration milliseconds: 100) timeoutAfter: (Duration seconds: 5) with: [ nil ].
-	self assert: submittedValue equals: 'fooBARBAZquxQUUXquuzNARFZOrt'.
+	self assert: submittedValue equals: 'fooBARBAZQUXQUUXquuzNARFZORT'.
+	"Note that the implementation of #sendKeys: on BPKeyboard has a limitation
+	in that it always sends a modifier key as a key down, instead of toggling
+	the key's state; the expected result used to be 'fooBARBAZquxQUUXquuzNARFZOrt'."

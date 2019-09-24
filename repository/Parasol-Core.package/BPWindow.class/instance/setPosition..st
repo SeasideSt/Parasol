@@ -4,8 +4,10 @@ setPosition: point
 		http://selenium.googlecode.com/svn/trunk/docs/api/java/org/openqa/selenium/WebDriver.Window.html#setPosition(org.openqa.selenium.Point)
 	"
 
-	driver httpPostHandleResponse: (self baseURL , 'position')
+	driver handleResponse: (driver
+		httpPost: (self baseURL , 'rect')
 		jsonData: (Dictionary new
-				at: 'x' put: point x;
-				at: 'y' put: point y;
-				yourself)
+			at: 'x' put: point x;
+			at: 'y' put: point y;
+			yourself))
+		onSuccess: [ :result | ].

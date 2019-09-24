@@ -53,7 +53,7 @@ testCookies
 	self assert: cookie getValue = 'Test Cookie 3 Value'.
 	self assert: cookie getDomain = 'localhost'.
 	self assert: cookie getPath = '/'.
-	self assert: cookie getExpiry year = (Date today year + 20).
+	self assert: cookie getExpiry isNil.
 	self assert: cookie isSecure not.
 	self assert: cookie isHTTPOnly.
 

@@ -10,7 +10,6 @@
 	],
 	"instvars" : [
 		"capabilities",
-		"oldExceptions",
 		"exceptions",
 		"sessionID"
 	],

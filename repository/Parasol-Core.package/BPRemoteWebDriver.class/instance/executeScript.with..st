@@ -7,7 +7,7 @@ executeScript: scriptString with: arguments
 	self
 		flag: 'Check whether this implementation matches the description of the original Java method'.
 	^self handleResponse: (self
-				httpPost: (self baseSessionURL , 'execute')
+				httpPost: (self baseSessionURL , 'execute/sync')
 				jsonData: (Dictionary new
 						at: 'script' put: scriptString;
 						at: 'args' put: arguments asScriptArgumentJSON;

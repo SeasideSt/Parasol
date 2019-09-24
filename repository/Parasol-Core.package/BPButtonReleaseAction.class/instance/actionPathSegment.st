@@ -1,4 +1,0 @@
-perform
-actionPathSegment
-
-	^ 'buttonup'

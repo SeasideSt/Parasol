@@ -1,6 +1,4 @@
 misc
 perform
 
-	actions do: [ :action |
-		action perform.
-	]
+	driver privatePerformActions: actions.
