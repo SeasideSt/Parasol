@@ -11,7 +11,7 @@ before_install:
   - sudo dpkg -i /tmp/google-chrome-stable_current_amd64.deb
 before_script:
   - wget http://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar
-  - wget https://chromedriver.storage.googleapis.com/77.0.3865.40/chromedriver_linux64.zip
+  - wget https://chromedriver.storage.googleapis.com/78.0.3904.105/chromedriver_linux64.zip
   - unzip chromedriver_linux64.zip
   - "java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.141.59.jar -port 4444 > /tmp/seleniumlog.&"
 smalltalk:
