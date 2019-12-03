@@ -9,6 +9,9 @@ before_install:
   - sudo apt-get update
   - sudo apt-get install -y dpkg
   - sudo dpkg -i /tmp/google-chrome-stable_current_amd64.deb
+  - sudo dpkg --add-architecture i386
+  - sudo apt-get update
+  - sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1
 before_script:
   - wget http://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar
   - wget https://chromedriver.storage.googleapis.com/77.0.3865.40/chromedriver_linux64.zip
