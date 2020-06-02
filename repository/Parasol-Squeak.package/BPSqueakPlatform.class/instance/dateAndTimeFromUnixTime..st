@@ -1,3 +1,4 @@
 facade
 dateAndTimeFromUnixTime: unixTime
-	self subclassResponsibility
+
+	^ DateAndTime fromUnixTime: unixTime
