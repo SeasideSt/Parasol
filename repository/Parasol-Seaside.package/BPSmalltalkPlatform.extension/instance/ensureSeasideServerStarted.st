@@ -1,0 +1,3 @@
+*Parasol-Seaside
+ensureSeasideServerStarted
+	self subclassResponsibility
