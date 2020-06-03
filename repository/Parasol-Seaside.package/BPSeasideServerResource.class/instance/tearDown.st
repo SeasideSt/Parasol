@@ -1,4 +1,5 @@
 running
 tearDown
-	super tearDown.
-	adapter ifNotNil:[ BPSmalltalkPlatform current ensureSeasideServerStopped: adapter ]
+  adapter
+    ifNotNil: [ BPSmalltalkPlatform current ensureSeasideServerStopped: adapter ].
+  super tearDown

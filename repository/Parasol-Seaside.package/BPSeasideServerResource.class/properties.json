@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "TestResource",
 	"category" : "Parasol-Seaside",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"adapter"
-	],
+		"adapter" ],
 	"name" : "BPSeasideServerResource",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "TestResource",
+	"type" : "normal" }
