@@ -1,4 +1,4 @@
-*Parasol-Seaside
+facade
 ensureSeasideServerStarted
 	^ ((Smalltalk at: #WAAdmin) defaultServerManager adaptors anySatisfy: #isRunning)
 		ifTrue: [ nil ]

@@ -1,3 +1,3 @@
-*Parasol-Seaside
+facade
 ensureSeasideServerStopped: adapter
 	adapter stop
