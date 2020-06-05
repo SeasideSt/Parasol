@@ -1,0 +1,3 @@
+*parasol-seaside
+ensureSeasideServerStopped: adapter
+	self subclassResponsibility
