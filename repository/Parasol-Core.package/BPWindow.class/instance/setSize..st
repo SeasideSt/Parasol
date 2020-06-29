@@ -1,7 +1,7 @@
 misc
 setSize: point
 	"
-		http://selenium.googlecode.com/svn/trunk/docs/api/java/org/openqa/selenium/WebDriver.Window.html#setSize(org.openqa.selenium.Dimension)
+		https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebDriver.Window.html#setSize(org.openqa.selenium.Dimension)
 	"
 
 	driver handleResponse: (driver

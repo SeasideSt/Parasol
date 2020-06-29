@@ -1,7 +1,7 @@
 misc
 setPosition: point
 	"
-		http://selenium.googlecode.com/svn/trunk/docs/api/java/org/openqa/selenium/WebDriver.Window.html#setPosition(org.openqa.selenium.Point)
+		https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebDriver.Window.html#setPosition(org.openqa.selenium.Point)
 	"
 
 	driver handleResponse: (driver

@@ -2,7 +2,7 @@ misc. keys
 pause
 
 	"
-		http://selenium.googlecode.com/svn/trunk/docs/api/java/org/openqa/selenium/Keys.html#PAUSE
+		https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/Keys.html#PAUSE
 	"
 	
 	^ Character codePoint: 16rE00B

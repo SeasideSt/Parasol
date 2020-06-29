@@ -1,7 +1,7 @@
 misc
 getSize
 	"
-		http://selenium.googlecode.com/svn/trunk/docs/api/java/org/openqa/selenium/WebDriver.Window.html#getSize()
+		https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebDriver.Window.html#getSize()
 	"
 
 	^driver httpGetHandleResponse: self baseURL , 'rect'

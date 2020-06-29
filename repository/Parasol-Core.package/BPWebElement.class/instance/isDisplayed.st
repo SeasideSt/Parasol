@@ -1,7 +1,7 @@
 misc
 isDisplayed
 	"
-		http://selenium.googlecode.com/svn/trunk/docs/api/java/org/openqa/selenium/WebElement.html#isDisplayed()
+		https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebElement.html#isDisplayed()
 	"
 
 	^driver httpGetHandleResponse: self baseElementURL , 'displayed'
