@@ -1,7 +1,7 @@
 events
 click
 	"
-		http://selenium.googlecode.com/svn/trunk/docs/api/java/org/openqa/selenium/WebElement.html#click()
+		https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebElement.html#click()
 	"
 
 	driver

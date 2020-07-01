@@ -2,7 +2,7 @@ misc.
 selectByVisibleText: visibleText
 
 	"
-		http://selenium.googlecode.com/svn/trunk/docs/api/java/org/openqa/selenium/support/ui/Select.html#selectByVisibleText(java.lang.String)
+		https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/support/ui/Select.html#selectByVisibleText(java.lang.String)
 	"
 
 	| options |

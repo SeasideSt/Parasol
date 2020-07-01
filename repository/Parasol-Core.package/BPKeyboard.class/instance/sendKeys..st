@@ -1,7 +1,7 @@
 misc
 sendKeys: keysString
 	"
-		http://selenium.googlecode.com/svn/trunk/docs/api/java/org/openqa/selenium/Keyboard.html#sendKeys(java.lang.CharSequence...)
+		https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/Keyboard.html#sendKeys(java.lang.CharSequence...)
 	"
 
 	| keyActions |

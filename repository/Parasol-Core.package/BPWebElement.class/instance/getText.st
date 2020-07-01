@@ -1,7 +1,7 @@
 misc
 getText
 	"
-		http://selenium.googlecode.com/svn/trunk/docs/api/java/org/openqa/selenium/WebElement.html#getText()
+		https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebElement.html#getText()
 	"
 
 	^driver httpGetHandleResponse: self baseElementURL , 'text'

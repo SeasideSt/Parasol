@@ -1,7 +1,7 @@
 misc
 executeScript: scriptString with: arguments
 	"
-		http://selenium.googlecode.com/svn/trunk/docs/api/java/org/openqa/selenium/remote/RemoteWebDriver.html#executeScript(java.lang.String,%20java.lang.Object...)
+		https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/remote/RemoteWebDriver.html#executeScript(java.lang.String,%20java.lang.Object...)
 	"
 
 	self

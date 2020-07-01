@@ -1,7 +1,7 @@
 misc
 getAttribute: nameString
 	"
-		http://selenium.googlecode.com/svn/trunk/docs/api/java/org/openqa/selenium/WebElement.html#getAttribute(java.lang.String)
+		https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebElement.html#getAttribute(java.lang.String)
 	"
 
 	self

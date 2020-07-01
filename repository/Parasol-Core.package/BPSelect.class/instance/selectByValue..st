@@ -2,7 +2,7 @@ misc.
 selectByValue: valueString
 
 	"
-		http://selenium.googlecode.com/svn/trunk/docs/api/java/org/openqa/selenium/support/ui/Select.html#selectByValue(java.lang.String)
+		https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/support/ui/Select.html#selectByValue(java.lang.String)
 	"
 
 	| options |

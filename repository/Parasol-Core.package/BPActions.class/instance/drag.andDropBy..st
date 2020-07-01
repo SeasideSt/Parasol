@@ -2,7 +2,7 @@ misc
 drag: sourceWebElement andDropBy: aPoint
 
 	"
-http://selenium.googlecode.com/svn/trunk/docs/api/java/org/openqa/selenium/interactions/Actions.html#dragAndDropBy(org.openqa.selenium.WebElement,%20int,%20int)
+https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/interactions/Actions.html#dragAndDropBy(org.openqa.selenium.WebElement,%20int,%20int)
 	"
 	
 	self

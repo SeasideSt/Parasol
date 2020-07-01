@@ -1,7 +1,7 @@
 misc
 clear
 	"
-		http://selenium.googlecode.com/svn/trunk/docs/api/java/org/openqa/selenium/WebElement.html#clear()
+		https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebElement.html#clear()
 	"
 
 	driver
