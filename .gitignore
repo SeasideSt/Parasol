@@ -4,3 +4,9 @@
 Session.vim
 .netrwhist
 *~
+*.jar
+*.zip
+*.log
+*.txt
+*.lck
+chromedriver
