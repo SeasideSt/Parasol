@@ -4,18 +4,13 @@ baseline: spec
 	<baseline>
 	spec for: #common do: [
 		spec 
-			baseline: 'Seaside3' with: [
-				spec
-					loads: #('Tests' 'Zinc-Seaside');
-					repository: 'github://SeasideSt/Seaside/repository'];
-				
 			baseline: 'Ston' with: [
 				spec
 					repository: 'github://svenvc/ston/repository'].
 				
 		spec
 			package: 'Parasol-Core';
-			package: 'Parasol-Seaside' with: [ spec requires: #('Seaside3' 'Parasol-Core') ];
+			package: 'Parasol-Seaside' with: [ spec requires: #('Parasol-Core') ];
 			package: 'Parasol-Tests' with: [ spec requires: #('Parasol-Seaside') ];
 			package: 'Parasol-Convenience' with: [ spec requires: #('Parasol-Core') ].
 			
@@ -23,6 +18,15 @@ baseline: spec
 			group: 'default' with: #('Parasol-Seaside' 'Parasol-Convenience');
 			group: 'core' with: #('Parasol-Core' 'Parasol-Convenience');
 			group: 'tests' with: #('Parasol-Tests' 'default').
+	].
+
+	spec for: #squeakcommon do: [
+		spec 
+			baseline: 'Seaside3' with: [
+				spec
+					loads: #('Tests');
+					repository: 'github://SeasideSt/Seaside/repository'];
+			package: 'Parasol-Seaside' with: [ spec requires: #('Seaside3') ].
 	].
 
 	spec for: #squeak do: [
@@ -36,6 +40,9 @@ baseline: spec
 	].
 
 	spec for: #pharo do: [
+		spec
+			project: 'Seaside3' 
+			with: [ spec loads: #('Tests' 'Zinc-Seaside') ].
 		"Sets the Zinc prerequisite for Pharo"
 			spec 
 				baseline: 'ZincHTTPComponents'
