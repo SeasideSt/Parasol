@@ -1,8 +1,10 @@
 SmalltalkCISpec {
-  #preloading : SCICustomScript {
-    #path : 'scripts/preloadSeasideForGemStone.st',
-    #platforms : [ #gemstone ]
-	},
+  #preloading :  [ 
+    SCICustomScript {
+      #path : 'scripts/preloadSeasideForGemStone.st',
+      #platforms : [ #gemstone ]
+    }
+	],
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'Parasol',
