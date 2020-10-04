@@ -1,5 +1,5 @@
 SmalltalkCISpec {
-  #preloading :  [ 
+  #preLoading :  [ 
     SCICustomScript {
       #path : 'scripts/preloadSeasideForGemStone.st',
       #platforms : [ #gemstone ]
