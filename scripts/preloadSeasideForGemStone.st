@@ -4,5 +4,5 @@ Metacello new
  baseline:'Seaside3';
 " repository: 'github://SeasideSt/Seaside:master/repository';"
  repository: 'github://dalehenrich/Seaside:issue_1223/repository';
- load #('Parasol-Tests').
+ load: #('Parasol-Tests' 'Zinc-Seaside').
 System commit.
