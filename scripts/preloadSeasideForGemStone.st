@@ -2,7 +2,6 @@
 	reloade loop has been broken. Travis tests require Seaside to be installed, so install Seaside, explicitly"
 Metacello new
  baseline:'Seaside3';
-" repository: 'github://SeasideSt/Seaside:master/repository';"
- repository: 'github://dalehenrich/Seaside:issue_1223/repository';
+ repository: 'github://SeasideSt/Seaside:master/repository';
  load: #('Parasol-Tests' 'Zinc-Seaside' 'Seaside-JSON-Core' 'Javascript-Core').
 System commit.
