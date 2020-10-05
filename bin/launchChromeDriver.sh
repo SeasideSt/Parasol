@@ -22,7 +22,7 @@ if [ "$CHROME_DRIVER_VERSION"x = "x" ] ; then
 	CHROME_DRIVER_VERSION=85.0.4183.87
 fi
 
-if [ ! -d "selenium-server-standalone-3.141.59.jar" ] ; then
+if [ ! -f "selenium-server-standalone-3.141.59.jar" ] ; then
 	# download launch theselenium web driver
 	wget http://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar
 	wget https://chromedriver.storage.googleapis.com/${CHROME_DRIVER_VERSION}/chromedriver_linux64.zip
