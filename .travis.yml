@@ -32,3 +32,4 @@ matrix:
     - smalltalk: Pharo64-alpha
     - smalltalk: Pharo64-9.0
     - smalltalk: Squeak-5.2
+    - smalltalk: Squeak64-5.2
