@@ -7,7 +7,7 @@ language: smalltalk
 
 before_script:
   - wget http://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar
-  - wget https://chromedriver.storage.googleapis.com/85.0.4183.87/chromedriver_linux64.zip
+  - wget https://chromedriver.storage.googleapis.com/87.0.4280.88/chromedriver_linux64.zip
   - unzip chromedriver_linux64.zip
   - "java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.141.59.jar -port 4444 > /tmp/seleniumlog.&"
 
