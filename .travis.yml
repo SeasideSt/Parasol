@@ -7,7 +7,7 @@ language: smalltalk
 
 before_script:
   - wget http://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar
-  - wget https://chromedriver.storage.googleapis.com/85.0.4183.87/chromedriver_linux64.zip
+  - wget https://chromedriver.storage.googleapis.com/87.0.4280.88/chromedriver_linux64.zip
   - unzip chromedriver_linux64.zip
   - "java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.141.59.jar -port 4444 > /tmp/seleniumlog.&"
 
@@ -21,13 +21,15 @@ smalltalk:
   - Pharo-5.0
   - Squeak64-5.2
   - Squeak-5.2
-  - GemStone-3.5.0
-  - GemStone-3.4.2
-  - GemStone-3.3.3
-  - GemStone-3.2.15
+  - GemStone-3.5.4
+  - GemStone-3.4.5
+  - GemStone-3.3.9
+  - GemStone-3.2.17
   - GemStone-3.1.0.6
 
 matrix:
   allow_failures:
     - smalltalk: Pharo64-alpha
     - smalltalk: Pharo64-9.0
+    - smalltalk: Squeak-5.2
+    - smalltalk: Squeak64-5.2
