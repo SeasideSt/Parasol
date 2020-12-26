@@ -40,15 +40,9 @@ baseline: spec
 					loads: #('Tests' 'Zinc-Seaside');
 					repository: 'github://SeasideSt/Seaside/repository'];
 			package: 'Parasol-Seaside' with: [ spec requires: #('Seaside3') ].
-		"Sets the Zinc prerequisite for Pharo"
-			spec 
-				baseline: 'ZincHTTPComponents'
-				with: [ 
-					spec
-						repository: 'github://svenvc/zinc/repository' ].
 		spec
 			package: 'Parasol-Pharo' with: [ spec requires: #('Parasol-Core' 'Ston')];
-			package: 'Parasol-Core' with: [ spec requires: #('ZincHTTPComponents'); includes:#('Parasol-Pharo') ].
+			package: 'Parasol-Core' with: [ spec includes:#('Parasol-Pharo') ].
 	].
 	
 	spec for: #gemstone do: [
