@@ -34,13 +34,8 @@ baseline: spec
 	].
 
 	spec for: #pharo do: [
-		spec 
-			baseline: 'Seaside3' with: [
-				spec
-					loads: #('Tests' 'Zinc-Seaside');
-					repository: 'github://SeasideSt/Seaside/repository'];
-			package: 'Parasol-Seaside' with: [ spec requires: #('Seaside3') ].
 		spec
+			package: 'Parasol-Seaside';
 			package: 'Parasol-Pharo' with: [ spec requires: #('Parasol-Core' 'Ston')];
 			package: 'Parasol-Core' with: [ spec includes:#('Parasol-Pharo') ].
 	].
