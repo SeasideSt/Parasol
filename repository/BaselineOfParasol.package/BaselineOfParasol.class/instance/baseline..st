@@ -33,13 +33,13 @@ baseline: spec
 			package: 'Parasol-Core' with: [ spec includes: #('Seaside3' 'Parasol-Squeak') ].
 	].
 
-	spec for: #(pharo5.x #pharo6.x #pharo7.x #pharo8.x) do: [
+	spec for: #(#pharo5 #pharo6 #pharo7 #pharo8) do: [
 		spec
 			package: 'Parasol-Pharo' with: [ spec requires: #('Parasol-Core' 'Ston')];
 			package: 'Parasol-Core' with: [ spec includes:#('Parasol-Pharo') ].
 	].
 
-	spec for: #(pharo9.x) do: [
+	spec for: #pharo9 do: [
 		spec
 			package: 'Parasol-Pharo9' with: [ spec requires: #('Parasol-Core' 'Ston')];
 			package: 'Parasol-Core' with: [ spec includes:#('Parasol-Pharo9') ].
