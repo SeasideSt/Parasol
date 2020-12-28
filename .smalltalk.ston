@@ -14,6 +14,7 @@ SmalltalkCISpec {
       #baseline : 'Parasol',
       #directory : 'repository',
       #load : [ 'tests' ],
+      #onConflict : #useIncoming,
       #platforms : [ #pharo, #squeak, #gemstone ]
     }
   ],
