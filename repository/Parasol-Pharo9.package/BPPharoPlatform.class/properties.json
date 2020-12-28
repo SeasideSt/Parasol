@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BPSmalltalkPlatform",
+	"category" : "Parasol-Pharo9",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPPharoPlatform",
+	"type" : "normal"
+}
