@@ -12,7 +12,7 @@ testGetKeyboardSendKeys
 	driver getKeyboard sendKeys: 'NA' , (String with: BPKeys shift) , 'RFzo', (String with: BPKeys shift) , 'rt'.
 	submitButton := driver findElementByID: 'submitButton'.
 	submitButton click.
-	submittedValue := self waitUntil: [ self componentUnderTest inputFieldValue ] is: [ :value | value notNil ]
+	submittedValue := self waitUntil: [ "triggers a tx update on Gemstone.." driver findElementByID: 'submitButton'. self componentUnderTest inputFieldValue ] is: [ :value | value notNil ]
 		checkEvery: (Duration milliseconds: 100) timeoutAfter: (Duration seconds: 5) with: [ nil ].
 	self assert: submittedValue equals: 'fooBARBAZQUXQUUXquuzNARFZORT'.
 	"Note that the implementation of #sendKeys: on BPKeyboard has a limitation

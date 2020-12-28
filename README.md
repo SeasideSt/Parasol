@@ -38,7 +38,7 @@ To try Beach Parasol, you'll need to get a few things:
 - A [Pharo](http://pharo.org) image
 - The [Chrome](https://www.google.com/chrome/) web browser
 - The [Selenium standalone server](http://docs.seleniumhq.org/download/) JAR file
-- The [Chromedriver](https://sites.google.com/a/chromium.org/chromedriver/) for your operating system
+- The [Chromedriver](https://sites.google.com/a/chromium.org/chromedriver/) for your operating system and matching Chrome version
 
 At the time of writing this README, we used Pharo version 7.0.4 (build: 168, commit: ccd1f64), Chrome version 76.0.3809.132, Selenium server v3.141.59 (“selenium-server-standalone-3.141.59.jar”) and Chromedriver v76.0.3809.126. If you find things are not working with more recent versions, please do [file an issue](https://github.com/SeasideSt/Parasol/issues).
 
@@ -48,13 +48,26 @@ You should extract the Chromedriver's ZIP file into the directory where you put 
 java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.141.59.jar
 ```
 
-To load the Parasol package into the Pharo image:
+**Prerequisite**: you need to load [Seaside](https://github.com/SeasideSt/Seaside) manually before loading Parasol. 
+You can use Parasol without Seaside, but then you can only load the 'core' metacello group. The 'default' and 'tests' groups require you to load Seaside yourself **before** loading Parasol. We could not include the load in the baseline because of a circular dependency issue of Seaside on Parasol and Parasol on Seaside.
+
+To load the Parasol package into the Pharo image that has Seaside loaded:
 
 ```Smalltalk
 Metacello new
     baseline: 'Parasol';
     repository: 'github://SeasideSt/Parasol/repository';
     load: 'tests'.
+(Smalltalk at: #ZnZincServerAdaptor) startOn: 8080.
+```
+
+To load Parasol package into the Pharo image without Seaside loaded:
+
+```Smalltalk
+Metacello new
+    baseline: 'Parasol';
+    repository: 'github://SeasideSt/Parasol/repository';
+    load: 'core'.
 (Smalltalk at: #ZnZincServerAdaptor) startOn: 8080.
 ```
 

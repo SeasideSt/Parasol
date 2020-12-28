@@ -3,6 +3,10 @@ SmalltalkCISpec {
     SCICustomScript {
       #path : 'scripts/preloadSeasideForGemStone.st',
       #platforms : [ #gemstone ]
+    },
+    SCICustomScript {
+      #path : 'scripts/preloadSeasideForPharo.st',
+      #platforms : [ #pharo ]
     }
 	],
   #loading : [
@@ -10,6 +14,7 @@ SmalltalkCISpec {
       #baseline : 'Parasol',
       #directory : 'repository',
       #load : [ 'tests' ],
+      #onConflict : #useIncoming,
       #platforms : [ #pharo, #squeak, #gemstone ]
     }
   ],
