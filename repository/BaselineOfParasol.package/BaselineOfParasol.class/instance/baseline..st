@@ -4,13 +4,17 @@ baseline: spec
 	<baseline>
 	spec for: #common do: [
 		spec 
+			baseline: 'Seaside3' with: [
+				spec
+					loads: #('Tests' 'Zinc');
+					repository: 'github://SeasideSt/Seaside/repository'];
 			baseline: 'Ston' with: [
 				spec
 					repository: 'github://svenvc/ston/repository'].
 				
 		spec
 			package: 'Parasol-Core';
-			package: 'Parasol-Seaside' with: [ spec requires: #('Parasol-Core') ];
+			package: 'Parasol-Seaside' with: [ spec requires: #('Seaside3' 'Parasol-Core') ];
 			package: 'Parasol-Tests' with: [ spec requires: #('Parasol-Seaside') ];
 			package: 'Parasol-Convenience' with: [ spec requires: #('Parasol-Core') ].
 			
@@ -25,8 +29,7 @@ baseline: spec
 			baseline: 'Seaside3' with: [
 				spec
 					loads: #('Tests' 'WebClient');
-					repository: 'github://SeasideSt/Seaside/repository'];
-			package: 'Parasol-Seaside' with: [ spec requires: #('Seaside3') ].
+					repository: 'github://SeasideSt/Seaside/repository'].
 				
 		spec
 			package: 'Parasol-Squeak' with: [ spec requires: #('Parasol-Seaside') ];
