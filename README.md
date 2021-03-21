@@ -90,14 +90,15 @@ The main Smalltalk platform for Parasol is [Pharo](http://pharo.org). Other supp
 An [older repository for Parasol exists on SqueakSource3](http://ss3.gemstone.com/ss/Parasol.html). This [GitHub repository](https://github.com/SeasideSt/Parasol) is the current development repository, the older SqueakSource3 repository is no longer kept up-to-date.
 
 
-## Build Status [![master branch:](https://travis-ci.org/SeasideSt/Parasol.svg?branch=master)](https://travis-ci.org/SeasideSt/Parasol/branches)
+## Build Status
 
-Parasol’s self-tests are automatically ran on [Travis CI](https://travis-ci.org/SeasideSt/Parasol/branches), the image above shows the status of the latest build of the “master” branch. Please note there's an open issue regarding some of the self-tests failing randomly ([issue #2](https://github.com/SeasideSt/Parasol/issues/2)).
+Parasol’s self-tests are automatically ran using [Github actions](https://github.com/SeasideSt/Parasol/actions/workflows/ci.yml).Please note there's an open issue regarding some of the self-tests failing randomly ([issue #2](https://github.com/SeasideSt/Parasol/issues/2)).
 
 
 ## Related
 
 You might also be interested in:
 
+- [browserstack-local-smalltalk](https://github.com/mattonem/browserstack-local-smalltalk): running your tests with Parasol against [BrowserStack](https://www.browserstack.com/)
 - [AutomaticParasol](https://github.com/nymch/AutomaticParasol): for running SeleniumIDE-Generated Tests in Pharo Smalltalk (using Parasol).
 - [WebDriver](http://smalltalkhub.com/#!/~TorstenBergmann/WebDriver): alternative Pharo WebDriver package described as “based on Parasol but clean room and for Pharo only.”
