@@ -1,15 +1,10 @@
 dist: xenial
-services:
-  - xvfb
 addons:
   chrome: stable
 language: smalltalk
 
 before_script:
-  - wget http://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar
-  - wget https://chromedriver.storage.googleapis.com/87.0.4280.88/chromedriver_linux64.zip
-  - unzip chromedriver_linux64.zip
-  - "java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.141.59.jar -port 4444 > /tmp/seleniumlog.&"
+  - npm install selenium-standalone && npx selenium-standalone install && npx selenium-standalone start &
 
 smalltalk:
   - Pharo64-alpha
@@ -18,7 +13,6 @@ smalltalk:
   - Pharo64-7.0
   - Pharo64-6.1
   - Pharo-6.1
-  - Pharo-5.0
   - Squeak64-5.2
   - Squeak-5.2
   - GemStone-3.5.4
@@ -30,6 +24,5 @@ smalltalk:
 matrix:
   allow_failures:
     - smalltalk: Pharo64-alpha
-    - smalltalk: Pharo64-9.0
     - smalltalk: Squeak-5.2
     - smalltalk: Squeak64-5.2
