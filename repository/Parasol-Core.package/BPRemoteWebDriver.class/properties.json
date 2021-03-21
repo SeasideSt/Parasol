@@ -5,8 +5,11 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
+		"Password",
+		"Scheme",
 		"ServerHost",
-		"ServerPort"
+		"ServerPort",
+		"Username"
 	],
 	"instvars" : [
 		"capabilities",

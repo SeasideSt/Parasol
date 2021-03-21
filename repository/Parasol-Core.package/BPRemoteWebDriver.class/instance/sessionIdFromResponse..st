@@ -1,6 +1,12 @@
 initialize-release
 sessionIdFromResponse: response
-
-	response httpStatus = 200 ifTrue: [
-		^ ((BPSmalltalkPlatform current jsonRead: response contents) at: 'value') at: 'sessionId' ].
-	self error: 'Unexpected response status code ' , response httpStatus printString , ' while creating web driver session.'
+	| parsedResponse |
+	response httpStatus = 200
+		ifTrue: [ parsedResponse := self parseResponse: response.
+			^ parsedResponse
+				at: 'sessionId'
+				ifAbsent: [ (parsedResponse at: 'value') at: 'sessionId' ] ].
+	self
+		error:
+			'Unexpected response status code ' , response httpStatus printString
+				, ' while creating web driver session.'
