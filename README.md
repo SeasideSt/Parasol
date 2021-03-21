@@ -90,10 +90,9 @@ The main Smalltalk platform for Parasol is [Pharo](http://pharo.org). Other supp
 An [older repository for Parasol exists on SqueakSource3](http://ss3.gemstone.com/ss/Parasol.html). This [GitHub repository](https://github.com/SeasideSt/Parasol) is the current development repository, the older SqueakSource3 repository is no longer kept up-to-date.
 
 
-## Build Status
+## Build Status ![Build Status](https://github.com/SeasideSt/Parasol/actions/workflows/ci.yml/badge.svg?branch=master)
 
-Parasol’s self-tests are automatically ran using [Github actions](https://github.com/SeasideSt/Parasol/actions/workflows/ci.yml).Please note there's an open issue regarding some of the self-tests failing randomly ([issue #2](https://github.com/SeasideSt/Parasol/issues/2)).
-
+Parasol’s self-tests are automatically ran using [Github actions](https://github.com/SeasideSt/Parasol/actions/workflows/ci.yml), the image above shows the status of the latest build of the “master” branch. Please note there's an open issue regarding some of the self-tests failing randomly ([issue #2](https://github.com/SeasideSt/Parasol/issues/2)).
 
 ## Related
 
