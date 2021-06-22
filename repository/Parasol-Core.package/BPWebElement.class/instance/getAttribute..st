@@ -1,11 +1,6 @@
 misc
 getAttribute: nameString
-	"
-		https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebElement.html#getAttribute(java.lang.String)
-	"
-
-	self
-		flag: 'Check whether this implementation matches the description of the original Java method'.
-	^driver
+	"https://www.w3.org/TR/webdriver/#get-element-attribute"
+	^ driver
 		httpGetHandleResponse: (self baseElementURL , 'attribute/') , nameString
 		onSuccess: [:result | result at: 'value']
