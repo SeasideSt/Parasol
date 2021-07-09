@@ -3,14 +3,21 @@ baseline: spec
 	
 	<baseline>
 	spec for: #common do: [
-		spec 
-			baseline: 'Seaside3' with: [
-				spec
-					loads: #('Tests' 'Zinc');
-					repository: 'github://SeasideSt/Seaside/repository'];
+
+		spec
 			baseline: 'Ston' with: [
 				spec
 					repository: 'github://svenvc/ston/repository'].
+				
+		spec 
+			project: 'Seaside3'
+			with: [ 
+				spec
+					className: 'ConfigurationOfSeaside3';
+					versionString: '3.0.19';
+					file: 'ConfigurationOfSeaside3-JohanBrichau.333';
+					loads: #('Tests');
+					repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main'].
 				
 		spec
 			package: 'Parasol-Core';
