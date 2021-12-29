@@ -49,7 +49,7 @@ java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.14
 ```
 ## Loading Parasol
 
-**Warning**: Parasol's default baseline will *NOT* load Seaside [Seaside](https://github.com/SeasideSt/Seaside) automatically. You can therefore use Parasol without Seaside, but then you should only load the 'core' Metacello group. The 'default' Metacello group pulls in the extensions for Seaside but you are required to load Seaside yourself. This ensures you can load your own version of Seaside without tackling Metacello load conflicts. Only the 'tests' Metacello group will load latest master of Seaside.
+**Warning**: Parasol's default baseline will *NOT* load [Seaside](https://github.com/SeasideSt/Seaside) automatically. You can therefore use Parasol without Seaside, but then you should only load the 'core' Metacello group. The 'default' Metacello group pulls in the extensions for Seaside but you are required to load Seaside yourself. This ensures you can load your own version of Seaside without tackling Metacello load conflicts. Only the 'tests' Metacello group will load latest master of Seaside.
 
 To load Parasol into a Pharo image with the Seaside extensions:
 
