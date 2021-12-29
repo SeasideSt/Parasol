@@ -1,7 +1,7 @@
 running
 startTestApp
 
-	self configureTestApp: (WAAdmin
+	self configureTestApp: (self
 				register: (BPClassInstantiationNotificationWrapper
 						withRealClass: self componentClass
 						instantiationNotificationBlock: [:newInstance | self componentUnderTest: newInstance])
