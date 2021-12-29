@@ -14,8 +14,8 @@ baseline: spec
 				
 		spec
 			package: 'Parasol-Core';
-			package: 'Parasol-Seaside' with: [ spec requires: #('Seaside3' 'Parasol-Core') ];
-			package: 'Parasol-Tests' with: [ spec requires: #('Parasol-Seaside') ];
+			package: 'Parasol-Seaside' with: [ spec requires: #('Parasol-Core') ];
+			package: 'Parasol-Tests' with: [ spec requires: #('Seaside3' 'Parasol-Seaside') ];
 			package: 'Parasol-Convenience' with: [ spec requires: #('Parasol-Core') ].
 			
 		spec
@@ -32,8 +32,8 @@ baseline: spec
 					repository: 'github://SeasideSt/Seaside/repository'].
 				
 		spec
-			package: 'Parasol-Squeak' with: [ spec requires: #('Parasol-Seaside') ];
-			package: 'Parasol-Core' with: [ spec includes: #('Seaside3' 'Parasol-Squeak') ].
+			package: 'Parasol-Squeak';
+			package: 'Parasol-Core' with: [ spec includes: #('Parasol-Squeak') ].
 	].
 
 	spec for: #(#'pharo5.x' #'pharo6.x' #'pharo7.x' #'pharo8.x') do: [
