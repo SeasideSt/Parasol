@@ -47,29 +47,31 @@ You should extract the Chromedriver's ZIP file into the directory where you put 
 ```bash
 java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.141.59.jar
 ```
+## Loading Parasol
 
-**Warning**: Parasol's default baseline will load the most recent master version of Seaside [Seaside](https://github.com/SeasideSt/Seaside) automatically. You can use Parasol without Seaside, but then you can only load the 'core' metacello group. The 'default' and 'tests' groups require Seaside. If you want to use a specific version of Seaside, you should load it yourself.
+**Warning**: Parasol's default baseline will *NOT* load Seaside [Seaside](https://github.com/SeasideSt/Seaside) automatically. You can therefore use Parasol without Seaside, but then you should only load the 'core' Metacello group. The 'default' Metacello group pulls in the extensions for Seaside but you are required to load Seaside yourself. This ensures you can load your own version of Seaside without tackling Metacello load conflicts. Only the 'tests' Metacello group will load latest master of Seaside.
 
-To load the Parasol package into the Pharo image that has Seaside loaded, or to load Seaside as a dependency:
+To load Parasol into a Pharo image with the Seaside extensions:
 
 ```Smalltalk
 Metacello new
     baseline: 'Parasol';
-    repository: 'github://SeasideSt/Parasol/repository';
-    onConflictUseLoaded;
+    repository: 'github://SeasideSt/Parasol:master/repository';
+    load: 'default'.
+(Smalltalk at: #ZnZincServerAdaptor) startOn: 8080.
+```
+
+To load Parasol into a Pharo image _and_ pull in Seaside as well:
+
+```Smalltalk
+Metacello new
+    baseline: 'Parasol';
+    repository: 'github://SeasideSt/Parasol:master/repository';
     load: 'tests'.
 (Smalltalk at: #ZnZincServerAdaptor) startOn: 8080.
 ```
 
-To load Parasol package into the Pharo image without loading Seaside:
 
-```Smalltalk
-Metacello new
-    baseline: 'Parasol';
-    repository: 'github://SeasideSt/Parasol/repository';
-    load: 'core'.
-(Smalltalk at: #ZnZincServerAdaptor) startOn: 8080.
-```
 
 Now give the Wikipedia example from above a try! For more examples, check the test cases `BPRemoteWebDriverTestCase` and `BPWebElementTestCase`.
 
