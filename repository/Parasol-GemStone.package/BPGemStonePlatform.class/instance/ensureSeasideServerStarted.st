@@ -2,7 +2,7 @@ facade
 ensureSeasideServerStarted
   | gemserver |
   gemserver := (GemServer gemServerNamed: 'Seaside')
-    ifNil: [ (Smalltalk at: #'ZnSeasideGemServer') register: 'Seaside' on: {(self port)} ].
+    ifNil: [ (Smalltalk at: #'ZnSeasideNewGemServer') register: 'Seaside' on: {(self port)} ].
   gemserver restartGems.
   (Delay forSeconds: 1) wait.
   (gemserver waitForStartGems: 20)
