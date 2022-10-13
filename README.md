@@ -38,7 +38,7 @@ To try Beach Parasol, you'll need to get a few things:
 - A [Pharo](http://pharo.org) image
 - The [Chrome](https://www.google.com/chrome/) web browser
 - The [Selenium standalone server](http://docs.seleniumhq.org/download/) JAR file
-- The [Chromedriver](https://sites.google.com/a/chromium.org/chromedriver/) for your operating system and matching Chrome version
+- The [Chromedriver](https://sites.google.com/chromium.org/driver/) for your operating system and matching Chrome version
 
 We run [automated tests](https://github.com/SeasideSt/Parasol/actions) for the [supported platforms](https://github.com/SeasideSt/Parasol#supported-smalltalk-platforms). If you find things are not working with more recent versions, please do [file an issue](https://github.com/SeasideSt/Parasol/issues).
 
