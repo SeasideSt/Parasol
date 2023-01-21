@@ -1,4 +1,4 @@
-baseline
+baselines
 baseline: spec
   <baseline>
   spec
@@ -43,14 +43,14 @@ baseline: spec
         package: 'Parasol-Squeak';
         package: 'Parasol-Core' with: [ spec includes: #('Parasol-Squeak') ] ].
   spec
-    for: #(#'pharo5.x' #'pharo6.x' #'pharo7.x' #'pharo8.x')
+    for: #(#'pharo6.x' #'pharo7.x' #'pharo8.x')
     do: [
       spec
         package: 'Parasol-Pharo'
           with: [ spec requires: #('Parasol-Core' 'Ston') ];
         package: 'Parasol-Core' with: [ spec includes: #('Parasol-Pharo') ] ].
   spec
-    for: #('pharo9.x' 'pharo10.x')
+    for: #('pharo9.x' 'pharo10.x' 'pharo11.x')
     do: [
       spec
         package: 'Parasol-Pharo9'
