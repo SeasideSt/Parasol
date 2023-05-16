@@ -32,7 +32,7 @@ exceptions
 			at: 500 put: ((Dictionary new)
 								at: 'javascript error' put: BPJavascriptException;
 								at: 'move target out of bounds' put: BPMoveTargetInvalidException;
-								at: 'session not created' put: BPNoSuchSessionException;
+								at: 'session not created' put: BPSessionNotCreatedException;
 								at: 'unable to set cookie' put: BPUnableToSetCookieException;
 								at: 'unable to capture screen' put: BPException;
 								at: 'unexpected alert open' put: BPUnexpectedAlertException;
