@@ -6,6 +6,6 @@ handleResponse: response onSuccess: successBlock
 	httpStatus = 204 ifTrue: [ self error: 'Unexpected response without entity' ].
 	result := BPSmalltalkPlatform current jsonRead: response contents.
 	((httpStatus >= 400) & (httpStatus <= 599))
-		ifTrue:[ self throwExceptionFor: httpStatus withResult: result ].
+		ifTrue: [ self signalExceptionForErrorResponse: response withResult: result ].
 	httpStatus = 200 ifFalse: [ Error signal: 'Unexpected HTTP status code in response from driver' ].
 	^ successBlock value: result

@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"errorCode"
+		"errorCode",
+		"httpResponse"
 	],
 	"name" : "BPException",
 	"type" : "normal"
