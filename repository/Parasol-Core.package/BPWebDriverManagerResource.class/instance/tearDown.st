@@ -2,6 +2,5 @@ running
 tearDown
 
 	drivers do: [ :driver |
-		[ driver quit ] on: BPUnsupportedCommandException do: [ :error | ].
-	].
+		[ self quitDriver: driver ] on: BPUnsupportedCommandException do: [ :error | "ignore" ] ].
 	super tearDown.
