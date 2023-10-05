@@ -84,7 +84,7 @@ The [Seaside tutorial offered by the HPI Software Architecture Group](http://www
 
 ## Supported Smalltalk Platforms
 
-The main Smalltalk platform for Parasol is [Pharo](http://pharo.org). Other supported Smalltalk platforms are [GemStone](https://gemtalksystems.com/products/) and [Squeak](http://squeak.org). There was support for [VisualWorks](http://www.cincomsmalltalk.com/main/products/visualworks/) in the past, but this has been removed due to lack of maintenance (see [issue #8](https://github.com/SeasideSt/Parasol/issues/8), let us know if you’re interested in VisualWorks support).
+The main Smalltalk platforms for Parasol is [Pharo](http://pharo.org) and [GemStone](https://gemtalksystems.com/products/). There was support for [VisualWorks](http://www.cincomsmalltalk.com/main/products/visualworks/) in the past, but this has been removed due to lack of maintenance (see [issue #8](https://github.com/SeasideSt/Parasol/issues/8), let us know if you’re interested in VisualWorks support). Support for [Squeak](http://squeak.org) is currently unmaintained but we accept PRs that fix the Squeak issues.
 
 
 ## GitHub versus SS3 Repository
