@@ -45,7 +45,7 @@ We run [automated tests](https://github.com/SeasideSt/Parasol/actions) for the [
 You should extract the Chromedriver's ZIP file into the directory where you put the Selenium server JAR file. To run the Selenium server, execute the following on the command line:
 
 ```bash
-java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-standalone-3.141.59.jar
+java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-4.13.0.jar standalone
 ```
 ## Loading Parasol
 
