@@ -5,7 +5,7 @@ testGetCapabilities
 	
 	capabilities := driver getCapabilities.
 
-	self assert: capabilities getBrowserName = 'chrome'.
+	self assert: capabilities getBrowserName equals: 'chrome'.
 	
 	platform := capabilities getPlatform.
 	self assert: (#('ANY' 'MAC' 'WINDOWS' 'UNIX' 'LINUX') includes: platform family name).
