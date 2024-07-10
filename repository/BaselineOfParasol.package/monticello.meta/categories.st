@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #BaselineOfParasol!
+self packageOrganizer ensurePackage: #BaselineOfParasol withTags: #()!
