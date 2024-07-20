@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Parasol-GemStone'!
+self packageOrganizer ensurePackage: #'Parasol-GemStone' withTags: #()!

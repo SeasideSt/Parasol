@@ -1,14 +1,11 @@
 {
-	"category" : "Parasol-Squeak",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "BPSqueakPlatform",
-	"pools" : [
-		 ],
 	"super" : "BPSmalltalkPlatform",
-	"type" : "normal" }
+	"category" : "Parasol-Squeak",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPSqueakPlatform",
+	"type" : "normal"
+}

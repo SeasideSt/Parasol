@@ -1,14 +1,11 @@
 {
-	"category" : "Parasol-GemStone",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "BPGemStonePlatform",
-	"pools" : [
-		 ],
 	"super" : "BPSmalltalkPlatform",
-	"type" : "normal" }
+	"category" : "Parasol-GemStone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPGemStonePlatform",
+	"type" : "normal"
+}

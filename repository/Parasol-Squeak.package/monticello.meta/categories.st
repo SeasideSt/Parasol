@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Parasol-Squeak'!
+self packageOrganizer ensurePackage: #'Parasol-Squeak' withTags: #()!
