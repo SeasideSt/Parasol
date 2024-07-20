@@ -6,9 +6,6 @@ baseline: spec
     for: #'common'
     do: [
       spec
-        baseline: 'Ston'
-        with: [ spec repository: 'github://svenvc/ston/repository' ].
-      spec
         package: 'Parasol-Core';
         package: 'Parasol-Seaside' with: [ spec requires: #('Parasol-Core') ];
         package: 'Parasol-Tests' with: [ spec requires: #('Parasol-Seaside') ];
