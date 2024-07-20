@@ -1,3 +1,4 @@
 facade
-jsonRead: aString
-	self subclassResponsibility
+jsonRead: aString 
+
+	^ WAJsonParser parse: aString
