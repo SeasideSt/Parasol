@@ -1,3 +1,4 @@
 facade
-jsonWrite: aDictionary
-	self subclassResponsibility
+jsonWrite: anObject
+
+	^ anObject asJson

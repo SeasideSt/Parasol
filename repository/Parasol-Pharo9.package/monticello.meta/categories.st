@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Parasol-Pharo9'!
+self packageOrganizer ensurePackage: #'Parasol-Pharo9' withTags: #()!

@@ -1,12 +1,10 @@
 baselines
 baseline: spec
   <baseline>
+
   spec
     for: #'common'
     do: [
-      spec
-        baseline: 'Ston'
-        with: [ spec repository: 'github://svenvc/ston/repository' ].
       spec
         package: 'Parasol-Core';
         package: 'Parasol-Seaside' with: [ spec requires: #('Parasol-Core') ];
@@ -17,6 +15,7 @@ baseline: spec
         group: 'default' with: #('Parasol-Seaside' 'Parasol-Convenience');
         group: 'core' with: #('Parasol-Core' 'Parasol-Convenience');
         group: 'tests' with: #('Parasol-Tests' 'default') ].
+
   spec
     for: #'loadSeaside'
     do: [
@@ -42,20 +41,25 @@ baseline: spec
       spec
         package: 'Parasol-Squeak';
         package: 'Parasol-Core' with: [ spec includes: #('Parasol-Squeak') ] ].
+
   spec
     for: #(#'pharo6.x' #'pharo7.x' #'pharo8.x')
     do: [
       spec
-        package: 'Parasol-Pharo'
-          with: [ spec requires: #('Parasol-Core' 'Ston') ];
-        package: 'Parasol-Core' with: [ spec includes: #('Parasol-Pharo') ] ].
+			package: 'Parasol-Pharo'
+				with: [ spec requires: #('Parasol-Core') ];
+			package: 'Parasol-Core'
+				with: [ spec includes: #('Parasol-Pharo') ] ].
+
   spec
     for: #('pharo9.x' 'pharo10.x' 'pharo11.x' 'pharo12.x' 'pharo13.x')
     do: [
       spec
-        package: 'Parasol-Pharo9'
-          with: [ spec requires: #('Parasol-Core' 'Ston') ];
-        package: 'Parasol-Core' with: [ spec includes: #('Parasol-Pharo9') ] ].
+			package: 'Parasol-Pharo9'
+				with: [ spec requires: #('Parasol-Core') ];
+			package: 'Parasol-Core' 
+				with: [ spec includes: #('Parasol-Pharo9') ] ].
+
   spec
     for: #'gemstone'
     do: [
@@ -67,16 +71,7 @@ baseline: spec
               spec
                 includes: #('Parasol-GemStone');
                 requires: #('ZincHTTP') ] ].
-  spec
-    for: #'gs2.4.x'
-    do: [
-      spec
-        baseline: 'ZincHTTP'
-        with: [
-          spec
-            className: 'BaselineOfZinc';
-            loads: 'Core';
-            repository: 'github://GsDevKit/zinc:2.3.2_gs2.4/repository' ] ].
+
   spec
     for: #'gs3.x'
     do: [
