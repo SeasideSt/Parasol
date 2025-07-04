@@ -52,7 +52,7 @@ baseline: spec
 				with: [ spec includes: #('Parasol-Pharo') ] ].
 
   spec
-    for: #('pharo9.x' 'pharo10.x' 'pharo11.x' 'pharo12.x' 'pharo13.x')
+    for: #('pharo9.x' 'pharo10.x' 'pharo11.x' 'pharo12.x' 'pharo13.x' 'pharo14.x')
     do: [
       spec
 			package: 'Parasol-Pharo9'
