@@ -2,7 +2,6 @@
 
 Parasol (full name “Beach Parasol”) is a Smalltalk framework to automate web browsers. It’s particularly useful to write automated tests for [Seaside](https://github.com/SeasideSt/Seaside) web applications. Its design and implementation are based on the [Java Selenium WebDriver API](http://www.seleniumhq.org/projects/webdriver/). 
 
-
 ## Example
 
 Here’s a straightforward annotated example. This example uses Parasol to automate a search for “Pharo” on Wikipedia:
@@ -49,7 +48,7 @@ java -Dwebdriver.chrome.driver=chromedriver -jar selenium-server-4.13.0.jar stan
 ```
 ## Loading Parasol
 
-**Warning**: Parasol's default baseline will *NOT* load [Seaside](https://github.com/SeasideSt/Seaside) automatically. You can therefore use Parasol without Seaside, but then you should only load the 'core' Metacello group. The 'default' Metacello group pulls in the extensions for Seaside but you are required to load Seaside yourself. This ensures you can load your own version of Seaside without tackling Metacello load conflicts. Only the 'tests' Metacello group will load latest master of Seaside.
+**Warning**: Parasol's default baseline will *NOT* load [Seaside](https://github.com/SeasideSt/Seaside) automatically. You can therefore use Parasol without Seaside (in Pharo only), but then you should only load the 'core' Metacello group. The 'default' Metacello group pulls in the extensions for Seaside but you are required to load Seaside yourself. This ensures you can load your own version of Seaside without tackling Metacello load conflicts. Only the 'tests' Metacello group will load latest version of Seaside. 
 
 To load Parasol into a Pharo image with the Seaside extensions:
 
