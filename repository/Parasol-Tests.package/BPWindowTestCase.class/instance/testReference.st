@@ -10,6 +10,7 @@ testReference
 	window1 := driver manage window.
 	window1 setPosition: 30@35.
 	window1 setSize: 600@500.
+	self waitUntil: [ window1 getPosition = (30@35) ] ifTimeout: [ self fail ].
 	self assert: window1 getPosition = (30@35).
 	self assert: window1 getSize = (600@500).
 	
@@ -29,6 +30,7 @@ testReference
 	self deny: window1 getSize = (600@500).
 	driver switchTo window: windowHandle1.
 	self assert: driver getWindowHandle equals: windowHandle1.
+	self waitUntil: [ window1 getPosition = (30@35) ] ifTimeout: [ self fail ].
 	self assert: window1 getPosition = (30@35).
 	self assert: window1 getSize = (600@500).
 	self assert: window2 getPosition = (30@35).
