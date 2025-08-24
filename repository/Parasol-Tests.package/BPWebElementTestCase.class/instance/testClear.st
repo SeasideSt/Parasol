@@ -11,6 +11,7 @@ testClear
 	inputField sendKeys: 'ABC'.
 	inputField sendKeys: 'DEF'.
 	submitButton click.
+	(Delay forMilliseconds: 500) wait.
 	submittedValue := self waitUntil: [ self componentUnderTest inputFieldValue ] is: [ :value | value notNil ]
 		checkEvery: (Duration milliseconds: 100) timeoutAfter: (Duration seconds: 5) with: [ nil ].
 	self assert: submittedValue equals: 'ABCDEF'.
