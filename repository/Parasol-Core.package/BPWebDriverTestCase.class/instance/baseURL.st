@@ -1,4 +1,5 @@
 running
 baseURL
-
-	^'http://localhost:' , BPSmalltalkPlatform current port printString , '/'
+	
+	^ BaseURLOverride ifNil:[
+		'http://localhost:', BPSmalltalkPlatform current port printString , '/' ]

@@ -4,7 +4,9 @@
 	"category" : "Parasol-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"BaseURLOverride"
+	],
 	"instvars" : [
 		"driver",
 		"screenshotCounter"

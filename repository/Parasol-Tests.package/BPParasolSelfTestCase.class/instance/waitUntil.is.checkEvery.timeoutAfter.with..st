@@ -7,7 +7,7 @@ waitUntil: valueBlock is: predicateBlock checkEvery: intervalDuration timeoutAft
 	[
 		value := valueBlock value.
 		(predicateBlock value: value) ifTrue: [ ^ value ].
-		(Delay forDuration: intervalDuration) wait.
+		(Delay forMilliseconds: intervalDuration asMilliSeconds) wait.
 
 		DateAndTime now < stopDateTime
 	] whileTrue.
