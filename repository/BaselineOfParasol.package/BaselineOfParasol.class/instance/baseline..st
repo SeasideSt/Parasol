@@ -63,22 +63,17 @@ baseline: spec
   spec
     for: #'gemstone'
     do: [
-      spec baseline: 'ZincHTTP'.
+      spec
+        baseline: 'Zinc Project'
+        with: [
+          spec
+            className: 'BaselineOfZincHTTPComponents';
+            loads: #('Core');
+            repository: 'github://GsDevKit/zinc:gs_master/repository' ].
       spec
         package: 'Parasol-GemStone';
         package: 'Parasol-Core'
           with: [
               spec
                 includes: #('Parasol-GemStone');
-                requires: #('ZincHTTP') ] ].
-
-  spec
-    for: #'gs3.x'
-    do: [
-      spec
-        baseline: 'ZincHTTP'
-        with: [
-          spec
-            className: 'BaselineOfZincHTTPComponents';
-            loads: 'Core';
-            repository: 'github://GsDevKit/zinc:gs_master/repository' ] ]
+                requires: #('Zinc Project') ] ].
