@@ -71,14 +71,16 @@ Metacello new
 ```
 ### Into GemStone
 
+```Smalltalk
 GsDeployer deploy: [
   Metacello new
     baseline: 'Parasol';
     repository: 'github://SeasideSt/Parasol:master/repository';
     load
 ].
+```
 
-Note: When loading into GemStone don't forget to run the GsUpgrader step from [Seaside's instructions for GemStone](https://github.com/SeasideSt/Seaside?tab=readme-ov-file#instructions-for-gemstone ) before loading Parasol!
+**Note:** When loading into GemStone don't forget to run the GsUpgrader step from [Seaside's instructions for GemStone](https://github.com/SeasideSt/Seaside?tab=readme-ov-file#instructions-for-gemstone ) before loading Parasol!
 
 
 Now give the Wikipedia example from above a try! For more examples, check the test cases `BPRemoteWebDriverTestCase` and `BPWebElementTestCase`.
