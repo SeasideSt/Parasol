@@ -4,6 +4,7 @@ testSendKeys
 	| inputElement submitButton submittedValue |
 	self assert: self componentUnderTest inputFieldValue isNil.
 	inputElement := driver findElementByID: 'inputField'.
+	inputElement click.
 	inputElement sendKeys: 'foo' ,
 		(String with: BPKeys shift) , 'bar' ,
 		(String with: BPKeys shift) , 'baz' ,
