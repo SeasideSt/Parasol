@@ -1,4 +1,4 @@
 facade
 jsonRead: aString 
 
-	^ WAJsonParser parse: aString
+	^ (Smalltalk at: #WAJsonParser) parse: aString
