@@ -14,7 +14,9 @@ baseline: spec
       spec
         group: 'default' with: #('Parasol-Seaside' 'Parasol-Convenience');
         group: 'Core' with: #('Parasol-Core' 'Parasol-Convenience');
-        group: 'Tests' with: #('Parasol-Tests' 'default') ].
+        group: 'core' with: #('Core');
+        group: 'Tests' with: #('Parasol-Tests' 'default');
+        group: 'tests' with: #('Tests') ].
 
   spec
     for: #'loadSeaside'
