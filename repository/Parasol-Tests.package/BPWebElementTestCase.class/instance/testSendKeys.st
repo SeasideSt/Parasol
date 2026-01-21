@@ -4,6 +4,7 @@ testSendKeys
 	| inputElement submitButton submittedValue |
 	self assert: self componentUnderTest inputFieldValue isNil.
 	inputElement := driver findElementByID: 'inputField'.
+	inputElement click.
 	inputElement sendKeys: 'foo' ,
 		(String with: BPKeys shift) , 'bar' ,
 		(String with: BPKeys shift) , 'baz' ,
@@ -11,7 +12,7 @@ testSendKeys
 	inputElement sendKeys: 'quux'.
 	inputElement sendKeys: 'QU' , (String with: BPKeys shift) , 'UZna' , (String with: BPKeys shift) , 'rf'.
 	submitButton := driver findElementByID: 'submitButton'.
-	submitButton click.
+	submitButton submit.
 	submittedValue := self waitUntil: [ self componentUnderTest inputFieldValue ] is: [ :value | value notNil ]
 		checkEvery: (Duration milliseconds: 100) timeoutAfter: (Duration seconds: 5) with: [ nil ].
 	self assert: submittedValue equals: 'fooBARbazQUXquuxQUUZNArf'.
