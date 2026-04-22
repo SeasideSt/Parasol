@@ -99,7 +99,7 @@ The main Smalltalk platforms for Parasol is [Pharo](http://pharo.org) and [GemSt
 
 ## GitHub versus SS3 Repository
 
-An [older repository for Parasol exists on SqueakSource3](http://ss3.gemstone.com/ss/Parasol.html). This [GitHub repository](https://github.com/SeasideSt/Parasol) is the current development repository, the older SqueakSource3 repository is no longer kept up-to-date.
+An [older repository for Parasol exists on SqueakSource3](http://ss3.gemtalksystems.com/ss/Parasol.html). This [GitHub repository](https://github.com/SeasideSt/Parasol) is the current development repository, the older SqueakSource3 repository is no longer kept up-to-date.
 
 
 ## Build Status ![Build Status](https://github.com/SeasideSt/Parasol/actions/workflows/ci.yml/badge.svg?branch=master)
