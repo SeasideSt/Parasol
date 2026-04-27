@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"webElement",
-		"offset"
+		"webElement"
 	],
 	"name" : "BPMoveMouseAction",
 	"type" : "normal"
